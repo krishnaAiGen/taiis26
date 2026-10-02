@@ -1,0 +1,82 @@
+{
+  "title": "Hotels",
+  "hotels": [
+    {
+      "id": "intercontinental-taichung",
+      "name": "InterContinental Taichung",
+      "website": "https://taichungic.com/en/",
+      "image": "images/hotels/intercontinental-taichung.jpg",
+      "imageAlt": "InterContinental Taichung"
+    },
+    {
+      "id": "le-meridien-taichung",
+      "name": "Le Méridien Taichung",
+      "website": "https://www.marriott.com/en-us/hotels/rmqmd-le-meridien-taichung/overview/",
+      "image": "images/hotels/le-meridien-taichung.jpg",
+      "imageAlt": "Le Méridien Taichung"
+    },
+    {
+      "id": "millennium-taichung",
+      "name": "Millennium Hotel Taichung",
+      "website": "https://millennium.hotel.com.tw/eng/",
+      "image": "images/hotels/millennium-taichung.jpg",
+      "imageAlt": "Millennium Hotel Taichung"
+    },
+    {
+      "id": "splendor-taichung",
+      "name": "Splendor Hotel Taichung",
+      "website": "https://www.splendorhotel.com.tw/en/",
+      "image": "images/hotels/splendor-taichung.jpg",
+      "imageAlt": "Splendor Hotel Taichung"
+    },
+    {
+      "id": "windsor-taichung",
+      "name": "The Windsor Hotel Taichung",
+      "website": "https://www.windsor.com.tw/en/",
+      "image": "images/hotels/windsor-hotel-taichung.jpg",
+      "imageAlt": "The Windsor Hotel Taichung"
+    },
+    {
+      "id": "evergreen-laurel-taichung",
+      "name": "Evergreen Laurel Hotel Taichung",
+      "website": "https://www.evergreen-hotels.com/laurel/taichung",
+      "image": "images/hotels/evergreen-laurel-taichung.jpg",
+      "imageAlt": "Evergreen Laurel Hotel Taichung"
+    },
+    {
+      "id": "howard-prince-taichung",
+      "name": "Howard Prince Hotel Taichung",
+      "website": "https://www.howardprince.com.tw/en/",
+      "image": "images/hotels/howard-prince-taichung.jpg",
+      "imageAlt": "Howard Prince Hotel Taichung"
+    },
+    {
+      "id": "icloud-luxury-resort",
+      "name": "Icloud Luxury Resort and Hotel",
+      "website": "https://www.icloudhotel.com.tw/",
+      "image": "images/hotels/icloud-luxury-resort.jpg",
+      "imageAlt": "Icloud Luxury Resort and Hotel"
+    },
+    {
+      "id": "check-inn-select-dadun",
+      "name": "CHECK inn Select Taichung Dadun",
+      "website": "https://www.checkinn.com.tw/?page_id=12270",
+      "image": "images/hotels/check-inn-select-dadun.webp",
+      "imageAlt": "CHECK inn Select Taichung Dadun"
+    },
+    {
+      "id": "the-lin-taichung",
+      "name": "THE LIN Hotel Taichung",
+      "website": "https://www.thelin.com.tw/",
+      "image": "images/hotels/the-lin-taichung.png",
+      "imageAlt": "THE LIN Hotel Taichung"
+    },
+    {
+      "id": "west-nest-wufeng",
+      "name": "West Nest Travel Taichung Wufeng Symphony Hall",
+      "website": "https://www.cuhotel.com.tw/taichung",
+      "image": "images/hotels/west-nest-wufeng.png",
+      "imageAlt": "West Nest Travel Taichung Wufeng Symphony Hall"
+    }
+  ]
+}

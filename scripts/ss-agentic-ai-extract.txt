@@ -1,0 +1,18 @@
+Special Session
+Special Session on Trustworthy Autonomous AI Agents and Multi-Agent IoT Systems
+Aim and Scope
+Trustworthy autonomous AI agents and multi-agent IoT systems emphasize intelligent ecosystems where AI agents can independently perceive environments, reason over information, plan tasks, collaborate with other agents, and execute actions through connected IoT devices and cyber-physical systems. The session focuses on agentic AI, multi-agent intelligence, autonomous decision-making, large language model-based agents, edge intelligence, federated learning, digital twins, and trustworthy AI to develop reliable, transparent, secure, and accountable autonomous IoT systems.
+This session provides a forum for researchers, academicians, and industry practitioners to present advanced methodologies, intelligent architectures, and real-world applications of trustworthy autonomous AI agents and multi-agent IoT systems. It encourages interdisciplinary research integrating agentic AI, multi-agent coordination, foundation models, explainable AI, edge-cloud intelligence, digital twins, and human–AI collaboration, addressing theoretical, methodological, and practical challenges in autonomous systems while emphasizing trust, safety, robustness, privacy, reliability, and human oversight.
+List of Topics
+Trustworthy Agentic AI for Intelligent IoT and Cyber-Physical Systems
+Multi-Agent AI for Autonomous Decision-Making and IoT Coordination
+Explainable and Responsible AI Agents for Autonomous Systems
+AI Agents for Smart Healthcare, Smart Cities, and Industrial IoT
+Digital Twins and Autonomous AI Agents for Cyber-Physical Systems
+Secure, Privacy-Preserving, and Reliable Multi-Agent IoT Systems
+Chair
+Dr. P. Selvaraj, Associate Professor Department of Computing Technologies, SRMIST, Kattankulathur, Chennai 603203, India 
+Dr. Divya Mohan, Assistant Professor Department of Computing Technologies, SRMIST, Kattankulathur, Chennai 603203, India 
+Dr. U. Karthikeyan, Assistant Professor Department of Computing Technologies, SRMIST, Kattankulathur, Chennai 603203, India
+Submission
+Authors must submit papers through the Microsoft Conference Management Toolkit (Microsoft CMT). When completing your submission, please select special session on Trustworthy Autonomous AI Agents and Multi-Agent IoT Systems — so your manuscript is routed to the correct session chairs for review.

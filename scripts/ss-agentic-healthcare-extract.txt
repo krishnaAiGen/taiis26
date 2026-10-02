@@ -1,0 +1,37 @@
+TAIIS 2026 Special Session Proposal: Agentic AI in Healthcare
+Special session on Agentic AI in Healthcare: Safe, Accountable Clinical Agents over Intelligent Medical IoT
+TAIIS 2026 · December 3–5, 2026 · Asia University, Taichung, Taiwan
+Aim and Scope
+For most of the past decade, AI in medicine has played the role of an advisor. A model reads a chest X-ray or scores a patient's sepsis risk, and a clinician decides what happens next. That arrangement is now changing. Agents built on large language and multimodal models can read a patient's record, follow a stream of readings from a wearable or bedside monitor, decide that something needs attention, and then act on it: order a test, message the care team, revise a follow-up plan, or pass the task to another agent. Hospitals have begun using such systems, though mostly for documentation, scheduling and other paperwork, where a mistake is an inconvenience rather than a danger. Bringing them closer to the bedside is a different matter. Consider an agent watching over a diabetic patient at home through the night. If the glucose sensor drops out for twenty minutes, or reports a value that is physically implausible, what should the agent do, and how would anyone establish afterwards why it did it? Questions of this kind expose gaps that accuracy benchmarks simply do not measure. We still have no agreed way to decide how much autonomy a clinical agent should be given, to check its plans before they are carried out, to protect it from instructions hidden in clinical notes or device data, or to trace responsibility when several agents and people share a decision. Most published evaluations also test agents on self-contained questions, rather than on the long and untidy tasks of real care, where one small error quietly leads to the next.
+Safe, Accountable Clinical Agents over Intelligent Medical IoT is intended as a meeting point for researchers approaching these problems from different directions. Our interest lies in the agent, the connected devices it depends on and the clinicians it works alongside, considered together rather than one at a time. The session welcomes new methods and architectures, formal and empirical safety studies, security analyses, simulation environments and benchmarks, and reports from real deployments, including candid accounts of what did not work. We particularly encourage papers that test agents on multi-step tasks with realistic sensor data, that report how agents fail and recover alongside their headline performance, and that release code or data so that others can build on the results. By bringing together computer scientists, IoT and systems engineers, clinicians, security researchers and those working in health policy, the session hopes to ensure that clinical agents are shaped by the people who will build them, use them and ultimately be answerable for them.
+List of Topics
+Deciding how much autonomy a clinical agent should have, and when it must defer to a clinician
+Agents that act on data from wearables, bedside monitors, home sensors and implantable devices
+Coping with missing, delayed, conflicting or implausible sensor readings
+Uncertainty estimation, abstention and timely escalation to the care team
+Edge and cloud designs that keep agents safe when connectivity fails
+Coordination among multiple agents, and between agents and clinical staff
+Prompt injection, tool misuse and other attacks on healthcare agents
+Protecting patient information held in agent memory; federated and on-device agents
+Audit trails and methods for reconstructing why an agent took a particular action
+Simulation environments, patient digital twins and benchmarks for testing agents before deployment
+Clinical pilot studies, failure analyses and lessons from real-world use
+Agentic systems for rural and resource-limited healthcare settings
+Chair
+Dr. Pramod Kumar, Swami Rama Himalayan University, Dehradun, India
+Co-Chair
+Dr. Anupama Mishra, Swami Rama Himalayan University, Dehradun, India
+Dr. Varsha Mittal, Graphic Era University, India
+Submission Dates
+Event
+Date
+Paper Submission Deadline
+September 30, 2026
+Acceptance Notification
+October 15, 2026
+Camera-Ready Submission
+November 01, 2026
+Conference Dates
+December 3–5, 2026
+Submission
+Authors must submit papers through the Microsoft Conference Management Toolkit (Microsoft CMT). When completing your submission, please select special session SS10 — Special session on Agentic AI in Healthcare: Safe, Accountable Clinical Agents over Intelligent Medical IoT — so your manuscript is routed to the correct session chairs for review.

@@ -1,0 +1,90 @@
+{
+  "title": "Paper Registration",
+  "intro": "At least one author of each accepted paper must register for the conference and present the work as required. Fees below are shown in US dollars (USD) for international registrants and New Taiwan dollars (NT$) for registrants based in Taiwan.",
+  "earlyBirdHeader": {
+    "title": "Early Bird Registration",
+    "subtitle": "On or before November 5, 2026"
+  },
+  "lateHeader": {
+    "title": "Late Registration",
+    "subtitle": "After November 5, 2026"
+  },
+  "feeSections": [
+    {
+      "heading": "Main Conference Author Registration",
+      "categories": [
+        {
+          "name": "Regular Author (In-Person)",
+          "earlyBird": { "usd": 450, "ntd": 14000 },
+          "late": { "usd": 550, "ntd": 17500 }
+        },
+        {
+          "name": "Regular Author (Online)",
+          "earlyBird": { "usd": 300, "ntd": 9500 },
+          "late": { "usd": 400, "ntd": 12500 }
+        },
+        {
+          "name": "Regular Author (Online) — SAARC and Low-Income Countries Rate",
+          "earlyBird": { "usd": 250, "ntd": 7500 },
+          "late": { "usd": 350, "ntd": 11000 }
+        },
+        {
+          "name": "Additional Paper (Online Presentation)",
+          "earlyBird": { "usd": 200, "ntd": 6000 },
+          "late": { "usd": 300, "ntd": 9500 }
+        }
+      ]
+    },
+    {
+      "heading": "Attendee Registration — Without Paper Presentation",
+      "categories": [
+        {
+          "name": "In-Person Attendee",
+          "earlyBird": { "usd": 250, "ntd": 7500 },
+          "late": { "usd": 350, "ntd": 11000 }
+        },
+        {
+          "name": "Online Attendee",
+          "earlyBird": { "usd": 200, "ntd": 6000 },
+          "late": { "usd": 300, "ntd": 9500 }
+        }
+      ]
+    },
+    {
+      "heading": "Doctoral Symposium — Student Presenter Registration",
+      "categories": [
+        {
+          "name": "Doctoral Student Presenter (In-Person)",
+          "earlyBird": { "usd": 350, "ntd": 11000 },
+          "late": { "usd": 450, "ntd": 14000 }
+        },
+        {
+          "name": "Doctoral Student Presenter (Online)",
+          "earlyBird": { "usd": 200, "ntd": 6000 },
+          "late": { "usd": 300, "ntd": 9500 }
+        }
+      ]
+    }
+  ],
+  "generalGuidelines": {
+    "heading": "General Registration Guidelines",
+    "paragraphs": [
+      "Early bird payment must be completed by November 5, 2026; late fees apply thereafter. USD fees apply to international registrants, and NTD fees apply to registrants based in Taiwan.",
+      "In-person fees apply regardless of country and reflect venue, conference service, and hospitality costs. Travel and accommodation are excluded.",
+      "The SAARC and Low-Income Countries Rate applies only to online registration where the registering author must be both the first author and corresponding author, with a primary institutional affiliation in a SAARC member country or a low-income country under the World Bank classification applicable at registration. Proof of affiliation and authorship may be requested.",
+      "One regular author registration covers one accepted paper and one presenter. Authors paying either the standard or reduced regional rate may register one second paper for online presentation at the additional-paper rate, provided the registering author co-authors both papers and registers the first at the applicable regular author rate. No further discounts apply.",
+      "All papers must meet review, acceptance, presentation, and publication requirements. Each regular or additional-paper registration covers up to ten pages; extra pages cost US$50 for international registrants or NT$1,500 for Taiwan-based registrants, subject to the permitted limit.",
+      "Attendee registration covers attendance only and excludes paper presentation and publication."
+    ]
+  },
+  "doctoralGuidelines": {
+    "heading": "Doctoral Symposium Guidelines",
+    "paragraphs": [
+      "Student rates cover accepted full-length papers, posters, abstracts, research proposals, and work-in-progress submissions. Full-length regular papers will appear in the main-conference proceedings, subject to publisher requirements; other contributions will appear in separate symposium proceedings with an ISBN.",
+      "The registering presenter must be both the first author and corresponding author, and the submission must primarily report their own research. Valid doctoral enrolment at submission and registration must be verified through a student ID and an official enrolment letter.",
+      "The registered student must personally present the work. Faculty and industry collaborators may be co-authors but must register separately to attend. Student registration cannot be transferred to a non-student.",
+      "One doctoral registration covers one submission and one presenter. Each student may register one submission at the doctoral rate; additional submissions require the applicable standard registration. Doctoral rates cannot be combined with regional or other discounts. Ineligible registrants must pay the applicable standard fee.",
+      "Full-length papers have a ten-page allowance, with extra pages charged at US$50 for international registrants or NT$1,500 for Taiwan-based registrants, subject to the permitted limit. Other submissions must follow their category’s format and length requirements."
+    ]
+  }
+}

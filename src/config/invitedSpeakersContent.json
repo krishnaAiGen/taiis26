@@ -1,0 +1,37 @@
+{
+  "title": "Distinguished Invited Speakers",
+  "speakers": [
+    {
+      "name": "Prof. Dragan Peraković",
+      "photo": "images/invited-speakers/dragan-perakovic.jpg",
+      "photoAlt": "Prof. Dragan Peraković",
+      "distinction": "Full Professor and Head of Chair for Information Communication Systems and Services Management",
+      "affiliation": "University of Zagreb, Faculty of Transport and Traffic Sciences, Croatia",
+      "bio": [
+        "Dr. Dragan Peraković is an internationally recognized expert in quantum communication ecosystems, computational cybersecurity, and digital e-forensics. Alongside his academic role, he is the Co-Founder and CEO of ArQus Solutions and serves as the President of the Croatian Chamber of Transport Engineers. His research extensively covers the security of Internet of Things (IoT) environments, artificial intelligence applications in cybersecurity, and Intelligent Transport Systems (ITS). Dr. Peraković has co-authored over 200 scientific papers, holds a Ph.D. from the University of Zagreb, and serves on the Steering Committee for the Croatian Quantum Communication Infrastructure (CroQCI) project."
+      ]
+    },
+    {
+      "name": "Prof. Kwok Tai Chui",
+      "photo": "images/invited-speakers/kwok-tai-chui.jpg",
+      "photoAlt": "Prof. Kwok Tai Chui",
+      "distinction": "Associate Professor",
+      "affiliation": "Department of Technology, School of Science and Technology, Hong Kong Metropolitan University (HKMU), Hong Kong",
+      "bio": [
+        "Kwok Tai Chui received the B.Eng. degree in electronic and communication engineering — Business Intelligence Minor and Ph.D. degree from City University of Hong Kong. He had industry experience as Senior Data Scientist in an Internet of Things (IoT) company. He is with the Department of Technology, School of Science and Technology, at Hong Kong Metropolitan University as an Associate Professor.",
+        "He has more than 100 research publications including edited books, book chapters, journal papers, and conference papers. He has served in various editorial positions in ESCI/SCIE-listed journals including Managing Editor of International Journal on Semantic Web and Information Systems, Topic Editor of Sensors, and Associate Editor of International Journal of Energy Optimization and Engineering.",
+        "His research interests include computational intelligence, data science, energy monitoring and management, intelligent transportation, smart metering, healthcare, machine learning algorithms and optimization."
+      ]
+    },
+    {
+      "name": "Prof. Ben-Yi Liau",
+      "photo": "images/invited-speakers/ben-yi-liau.png",
+      "photoAlt": "Prof. Ben-Yi Liau",
+      "distinction": "Associate Professor and Chair",
+      "affiliation": "Department of Automatic Control Engineering, Feng Chia University, Taiwan",
+      "bio": [
+        "Ben-Yi Liau is an Associate Professor and Chair of the Department of Automatic Control Engineering at Feng Chia University, Taiwan. He received his B.S. degree from National Chung Hsing University, his M.S. degree in Biomedical Engineering from National Yang-Ming University, and his Ph.D. degree from Feng Chia University in 2008. Before joining Feng Chia University in 2023, he was an Associate Professor of Biomedical Engineering at Hungkuang University. His research focuses on biomedical signal processing, physiological sensing, biomechanics, and applications of machine learning in healthcare."
+      ]
+    }
+  ]
+}

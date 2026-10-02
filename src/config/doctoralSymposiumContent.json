@@ -1,0 +1,140 @@
+{
+  "title": "Doctoral Research Symposium",
+  "pageTitle": "1st International Doctoral Research Symposium on Trustworthy AI and Intelligent IoT Systems (IDRS-TAIIS 2026)",
+  "intro": [
+    "The International Conference on Trustworthy AI and Intelligent IoT Systems (TAIIS 2026) invites doctoral students to submit their ongoing research to the 1st International Doctoral Research Symposium on Trustworthy AI and Intelligent IoT Systems (IDRS-TAIIS 2026), to be held during December 3–5, 2026, at Asia University, Taichung, Taiwan.",
+    "The Doctoral Symposium will provide PhD students with an international forum to present their research, receive constructive feedback from experienced researchers, interact with other doctoral scholars, and establish valuable academic and professional collaborations."
+  ],
+  "objectivesTitle": "Objectives",
+  "objectivesIntro": "The symposium aims to:",
+  "objectives": [
+    "Provide constructive feedback on ongoing doctoral research",
+    "Help students refine their research questions, methodology, and expected contributions",
+    "Facilitate interaction with senior researchers and industry experts",
+    "Encourage international research collaboration and networking",
+    "Support students in developing a clear roadmap for completing their doctoral research"
+  ],
+  "topicsTitle": "Topics of Interest",
+  "topicsIntro": "Submissions may address, but are not limited to:",
+  "topics": [
+    "Trustworthy, Explainable, and Responsible AI",
+    "Generative AI and Agentic AI",
+    "Artificial Intelligence and Machine Learning",
+    "Cybersecurity and Information Security",
+    "Privacy-Preserving Technologies",
+    "Internet of Things and Industrial IoT",
+    "Edge, Cloud, and Fog Computing",
+    "Federated and Distributed Learning",
+    "AI for Healthcare and Smart Systems",
+    "Secure and Intelligent Communication Networks",
+    "Digital Forensics and Cyber Threat Intelligence",
+    "Blockchain and Decentralised Systems",
+    "Robotics and Autonomous Systems",
+    "Sustainable and Green AI",
+    "Human-Centred AI",
+    "Post-Quantum Security",
+    "Emerging AI and IoT Applications"
+  ],
+  "submissionCategoriesTitle": "Submission Categories",
+  "submissionCategories": [
+    {
+      "title": "Full Doctoral Symposium Paper",
+      "paragraphs": [
+        "Recommended length: 6–8 pages, including references.",
+        "The paper should present a well-defined research problem, research gap, methodology, preliminary findings, expected contributions, and future research plan.",
+        "Accepted, registered, and presented papers may be submitted for consideration for publication in the planned Springer Lecture Notes in Electrical Engineering (LNEE) proceedings, subject to all conference and Springer Nature requirements."
+      ]
+    },
+    {
+      "title": "Doctoral Research Proposal/Poster",
+      "paragraphs": [
+        "Recommended length: 2–4 pages, including references.",
+        "Suitable for doctoral students at an early stage who wish to present a research proposal, conceptual framework, or preliminary study.",
+        "These submissions will be included in the book having ISBN number but will not be considered for the Springer proceedings."
+      ]
+    }
+  ],
+  "submissionRequirementsTitle": "Submission Requirements",
+  "submissionRequirementsIntro": "Each submission should clearly include:",
+  "submissionRequirements": [
+    "Background and motivation of the research",
+    "Research problem and identified research gap",
+    "Research questions or objectives",
+    "Relevant literature and theoretical foundation",
+    "Proposed research methodology",
+    "Preliminary results, where available",
+    "Expected scientific and practical contributions",
+    "Current research progress and future work",
+    "Specific areas on which the student would like to receive feedback"
+  ],
+  "submissionRequirementsNote": "The doctoral student should normally be the first author and must present the accepted work. Supervisors may be included as co-authors. Authors may also be requested to provide a brief letter or confirmation from their supervisor regarding their doctoral status and research progress.",
+  "reviewTitle": "Review and Selection",
+  "reviewIntro": "Submissions will be evaluated based on:",
+  "reviewCriteria": [
+    "Relevance to the scope of TAIIS 2026",
+    "Originality and significance of the research",
+    "Clarity of the research problem and objectives",
+    "Appropriateness of the proposed methodology",
+    "Research progress and feasibility",
+    "Potential academic, industrial, or societal impact",
+    "Overall quality and clarity of presentation"
+  ],
+  "reviewNote": "Acceptance will be based on peer review and the recommendations of the Doctoral Symposium Committee.",
+  "presentationTitle": "Presentation Format",
+  "presentationIntro": "Accepted doctoral students will be invited to:",
+  "presentationItems": [
+    "Deliver a short oral presentation",
+    "Present their research during an interactive discussion or poster session",
+    "Receive feedback from an expert panel",
+    "Participate in mentoring and networking activities"
+  ],
+  "presentationNote": "Physical participation is encouraged. Online presentation may be permitted in exceptional circumstances, including visa, travel, financial, or medical difficulties, subject to prior approval by the Organizing Committee.",
+  "publicationTitle": "Publication Information",
+  "publicationParagraphs": [
+    "Springer has accepted the TAIIS 2026 proceedings for planned publication in the Lecture Notes in Electrical Engineering (LNEE) series, which is indexed in Scopus and EI Compendex.",
+    "Peer-reviewed and selected full papers that are accepted, registered, and presented at the conference will be submitted to Springer for publication consideration. Springer Nature will conduct its own quality, integrity, formatting, and scope checks, and only papers that successfully pass these checks will be published.",
+    "Abstracts, extended abstracts, posters, and papers of fewer than four pages will not be considered for publication in the Springer proceedings."
+  ],
+  "awardsTitle": "Awards and Recognition",
+  "awardsIntro": "Subject to the recommendation of the Award Committee, the symposium may recognise outstanding contributions through:",
+  "awards": [
+    "Best Doctoral Research Paper Award",
+    "Best Doctoral Research Presentation Award",
+    "Best Doctoral Research Poster Award",
+    "Doctoral Research Innovation Award",
+    "Audience Choice Award for Best Doctoral Paper"
+  ],
+  "awardsNote": "All registered and presenting doctoral participants will receive an official certificate of presentation or participation.",
+  "registrationTitle": "Student Presenter Registration",
+  "registrationIntro": "Accepted doctoral symposium presenters must complete registration at the student presenter rates below. Fees are shown in US dollars (USD) for international registrants and New Taiwan dollars (NT$) for registrants based in Taiwan.",
+  "registrationGuidelinesTitle": "Registration Guidelines",
+  "registrationFullFeesLabel": "View all conference registration fees",
+  "importantDatesTitle": "Important Dates",
+  "importantDates": [
+    {
+      "label": "Doctoral Symposium submission deadline",
+      "date": "October 20, 2026 (Hard Deadline)"
+    },
+    {
+      "label": "Acceptance notification",
+      "date": "As announced on the conference website"
+    },
+    {
+      "label": "Camera-ready paper and registration",
+      "date": "As announced on the conference website"
+    },
+    {
+      "label": "Conference and Doctoral Symposium",
+      "date": "December 3–5, 2026",
+      "highlight": true
+    }
+  ],
+  "submissionProcedureTitle": "Submission Procedure",
+  "submissionProcedure": [
+    "Authors should prepare their manuscripts using the prescribed conference/Springer format and submit them through the official TAIIS 2026 submission system. While submitting, authors should select the “Doctoral Symposium” track.",
+    "All submissions must be original, must not have been published previously, and must not be under review elsewhere. Authors must comply with the conference policies concerning plagiarism, research ethics, authorship, conflicts of interest, and the responsible use of artificial intelligence tools."
+  ],
+  "closing": "Doctoral students from universities and research institutions worldwide are warmly invited to submit their research and participate in this valuable academic and mentoring opportunity.",
+  "submitButtonLabel": "Submit to Doctoral Symposium",
+  "cmtTrackNote": "When completing your submission in Microsoft CMT, select the Doctoral Symposium track."
+}

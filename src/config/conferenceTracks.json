@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Track 1: Trustworthy, Responsible, and Explainable AI",
+    "topics": [
+      "Trustworthy Artificial Intelligence",
+      "Explainable AI (XAI)",
+      "Responsible and Ethical AI",
+      "Fairness, Accountability, and Transparency in AI",
+      "Human-Centered AI",
+      "AI Safety and Robustness",
+      "AI Governance and Regulatory Compliance",
+      "Trustworthy Human–AI Collaboration",
+      "AI Benchmarking and Performance Evaluation",
+      "Datasets, Benchmarks, and Reproducible AI"
+    ]
+  },
+  {
+    "title": "Track 2: Generative AI, Foundation Models, and Agentic Systems",
+    "topics": [
+      "Generative AI and Large Language Models (LLMs)",
+      "Foundation Models and Multimodal AI",
+      "Agentic AI and Autonomous Intelligent Systems",
+      "Natural Language Processing",
+      "Speech and Multimodal Intelligence",
+      "Knowledge Graphs and Graph Neural Networks",
+      "Distributed Intelligence"
+    ]
+  },
+  {
+    "title": "Track 3: AI Security, Privacy, and Cybersecurity",
+    "topics": [
+      "AI Security and Privacy",
+      "Adversarial Machine Learning",
+      "Privacy-Preserving Machine Learning",
+      "Federated and Distributed Learning",
+      "Secure Multi-Party Computation",
+      "Differential Privacy",
+      "AI Model Security and Watermarking",
+      "Intelligent Cybersecurity",
+      "Intrusion Detection and Prevention Systems",
+      "Malware and Ransomware Detection",
+      "Phishing and Fraud Detection",
+      "DDoS Detection and Mitigation",
+      "Cyber Threat Intelligence",
+      "Zero Trust Security",
+      "Blockchain and Distributed Ledger Technologies",
+      "Secure Intelligent Systems"
+    ]
+  },
+  {
+    "title": "Track 4: IoT, Edge Intelligence, and Cloud Computing",
+    "topics": [
+      "Internet of Things (IoT)",
+      "Industrial Internet of Things (IIoT)",
+      "Internet of Medical Things (IoMT)",
+      "Edge AI and TinyML",
+      "Smart Sensors and Embedded Intelligence",
+      "Edge, Fog, and Cloud Computing",
+      "Real-World AI and IoT Deployments",
+      "Cyber-Physical Systems"
+    ]
+  },
+  {
+    "title": "Track 5: Intelligent Networks and Next-Generation Communications",
+    "topics": [
+      "AI-Enabled Network Management",
+      "Software-Defined Networking (SDN)",
+      "Network Function Virtualization (NFV)",
+      "5G/6G Intelligent Networks",
+      "Wireless Sensor Networks"
+    ]
+  },
+  {
+    "title": "Track 6: Computer Vision, Data Analytics, and Intelligent Computing",
+    "topics": [
+      "Computer Vision and Image Processing",
+      "Big Data Analytics",
+      "Streaming Data Analytics",
+      "Predictive Analytics",
+      "Anomaly Detection",
+      "Digital Twins",
+      "Extended Reality (XR), AR/VR, and Metaverse",
+      "Quantum AI and Emerging Computing Paradigms"
+    ]
+  },
+  {
+    "title": "Track 7: Efficient AI, Hardware, and MLOps",
+    "topics": [
+      "Model Compression and Lightweight AI",
+      "AI Accelerators and Hardware-Aware AI",
+      "FPGA and Edge Hardware for AI",
+      "MLOps and AIOps"
+    ]
+  },
+  {
+    "title": "Track 8: AI Applications, Smart Systems, and Sustainability",
+    "topics": [
+      "Smart Cities and Intelligent Infrastructure",
+      "Intelligent Transportation Systems",
+      "Smart Manufacturing and Industry 5.0",
+      "Smart Healthcare and Digital Health",
+      "Smart Energy Systems",
+      "Smart Agriculture",
+      "Autonomous Vehicles and Robotics",
+      "AI for Sustainability and Green Computing",
+      "AI for Climate and Environmental Monitoring",
+      "AI Applications in Consumer Electronics",
+      "Industrial Applications and Case Studies"
+    ]
+  },
+  {
+    "title": "Track 9: Digital Innovation, Intelligent Management, and Interdisciplinary Systems",
+    "topics": [
+      "AI and Digital Transformation",
+      "Intelligent Decision Support Systems",
+      "AI for Business and Management",
+      "Business Intelligence and Analytics",
+      "Data-Driven Decision Making",
+      "Digital Innovation and Entrepreneurship",
+      "Technology and Innovation Management",
+      "AI-Enabled Operations Management",
+      "Intelligent Supply Chain and Logistics",
+      "FinTech and Intelligent Financial Systems",
+      "E-Commerce and Digital Business",
+      "Human Resource Analytics and AI",
+      "Smart Governance and Public Administration",
+      "Information Systems and Digital Platforms",
+      "Knowledge Management and Organizational Intelligence",
+      "Sustainable Business and ESG Analytics",
+      "AI for Marketing and Consumer Analytics",
+      "Healthcare Management and Digital Transformation",
+      "Education Management and Intelligent Learning Systems",
+      "Interdisciplinary Applications of AI and Emerging Technologies"
+    ]
+  },
+  {
+    "title": "Track 10: Quantum Computing and Quantum Intelligence",
+    "topics": [
+      "Quantum Computing",
+      "Quantum Machine Learning",
+      "Quantum Artificial Intelligence",
+      "Quantum Algorithms",
+      "Quantum Neural Networks",
+      "Quantum Optimization",
+      "Quantum Communication and Networking",
+      "Quantum Cryptography",
+      "Post-Quantum Cryptography",
+      "Quantum-Safe Security",
+      "Hybrid Quantum–Classical Computing",
+      "Quantum Simulation",
+      "Quantum Internet",
+      "Quantum Computing for IoT and Edge Systems",
+      "Applications of Quantum Computing"
+    ]
+  }
+]

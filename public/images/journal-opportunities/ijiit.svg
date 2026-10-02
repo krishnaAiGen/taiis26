@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="440" viewBox="0 0 320 440" role="img" aria-label="IJIIT">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="440" fill="url(#bg)" rx="8"/>
+  <text x="160" y="88" fill="#fef3c7" font-family="Georgia, serif" font-size="28" text-anchor="middle">IJIIT</text>
+  <text x="160" y="195" fill="#ffffff" font-family="Georgia, serif" font-size="17" text-anchor="middle">Intelligent Information</text>
+  <text x="160" y="222" fill="#ffffff" font-family="Georgia, serif" font-size="17" text-anchor="middle">Technologies</text>
+  <text x="160" y="390" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">IGI Global</text>
+</svg>

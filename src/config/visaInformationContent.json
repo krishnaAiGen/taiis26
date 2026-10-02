@@ -1,0 +1,34 @@
+{
+  "title": "Visa Information",
+  "intro": [
+    "International participants attending TAIIS 2026 in Taichung, Taiwan are advised to check the applicable visa and entry requirements before making travel arrangements.",
+    "Visa requirements vary by nationality. Participants are encouraged to apply well in advance and consult the Bureau of Consular Affairs (BOCA), Ministry of Foreign Affairs, Taiwan for the latest official information."
+  ],
+  "officialResourcesTitle": "Official Visa Resources",
+  "officialResources": [
+    {
+      "label": "Bureau of Consular Affairs (BOCA), Ministry of Foreign Affairs, Taiwan",
+      "url": "https://www.boca.gov.tw/mp-2.html"
+    },
+    {
+      "label": "Visa Information",
+      "url": "https://www.boca.gov.tw/np-148-1.html"
+    },
+    {
+      "label": "Visa-Exempt Entry",
+      "url": "https://www.boca.gov.tw/np-149-1.html"
+    },
+    {
+      "label": "Visitor Visa for Attending Conference / Exhibition",
+      "url": "https://www.boca.gov.tw/cp-149-9086-1.html"
+    },
+    {
+      "label": "eVisa Information",
+      "url": "https://www.boca.gov.tw/cp-149-9087-1.html"
+    },
+    {
+      "label": "Online Visa Application System",
+      "url": "https://visawebapply.boca.gov.tw/"
+    }
+  ]
+}

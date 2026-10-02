@@ -1,0 +1,73 @@
+{
+  "title": "Keynote Speakers",
+  "speakers": [
+    {
+      "name": "Prof. Yang Xiang",
+      "photo": "images/keynote/yang-xiang.png",
+      "photoAlt": "Prof. Yang Xiang",
+      "distinction": "IEEE Fellow",
+      "affiliation": "Department of Software Systems and Cybersecurity, Faculty of Information Technology, Monash University, Australia",
+      "bio": [
+        "Prof. Yang Xiang is an internationally recognized researcher and academic specializing in Cybersecurity, Artificial Intelligence, Network Security and Digital Innovation. He is a Professor in the Department of Software Systems and Cybersecurity, Faculty of Information Technology, Monash University, Australia. He received his Ph.D. in Computer Science from Deakin University in 2007.",
+        "Prior to joining Monash University in August 2026, Prof. Xiang served as Director and Dean of the Digital Research and Innovation Capability Platform at Swinburne University of Technology. In this role, he led strategic initiatives in digital transformation, blockchain technology and industry-driven research across manufacturing, healthcare, energy, transportation and finance.",
+        "With more than two decades of research experience, Prof. Xiang has published over 300 scientific papers in leading international journals and conferences, including ACM CCS, IEEE Symposium on Security and Privacy, USENIX Security and NDSS. His research focuses on software and system security, network and application security, and the security of artificial intelligence throughout its development and deployment lifecycle.",
+        "Prof. Xiang has held several distinguished editorial positions, including Editor-in-Chief of a SpringerBriefs series on cybersecurity and Associate Editor of ACM Computing Surveys. He has also served on the editorial boards of leading IEEE journals, including IEEE Transactions on Dependable and Secure Computing, IEEE Internet of Things Journal, IEEE Transactions on Computers and IEEE Transactions on Parallel and Distributed Systems.",
+        "He is a Fellow of the IEEE and a member of the Australian Research Council College of Experts. He has also served as Asia Coordinator of the IEEE Computer Society Technical Committee on Distributed Processing. Beyond academia, he actively contributes to industry collaboration and advises public and private organizations in Australia on cybersecurity strategy, technology risk, digital innovation and major technology initiatives."
+      ]
+    },
+    {
+      "name": "Prof. Amiya Nayak",
+      "photo": "images/keynote/amiya-nayak.jpg",
+      "photoAlt": "Prof. Amiya Nayak",
+      "distinction": "IEEE Fellow",
+      "affiliation": "School of Electrical Engineering and Computer Science, University of Ottawa, Ottawa, Canada",
+      "bio": [
+        "Dr. Amiya Nayak is a distinguished Full Professor at the School of Electrical Engineering and Computer Science (EECS) at the University of Ottawa, Canada. An internationally recognized leader in his field, he is a Fellow of the IEEE (FIEEE), an honor reserved for researchers with an extraordinary record of accomplishment. He holds a Ph.D. in Systems and Computer Engineering from Carleton University and a B.Math from the University of Waterloo, forming a strong academic foundation for his extensive career in technology.",
+        "Before transitioning into academia, Dr. Nayak spent over 17 years in the private sector, where he gained deep technical expertise in software engineering, avionics, and navigation systems. This extensive industrial background uniquely informs his research, allowing him to bridge the gap between theoretical computing and practical, real-world applications. His work is characterized by a focus on the reliability and security of the complex systems that power modern society.",
+        "His primary research interests lie at the intersection of distributed systems and network security. He is particularly well-known for his contributions to wireless and mobile computing, including ad hoc and sensor networks, as well as the security of the Internet of Things (IoT). Dr. Nayak’s work often explores fault-tolerant computing and decentralized access control, seeking to ensure that large-scale networks remain functional and secure even under high-stress conditions or cyber threats.",
+        "A prolific scholar, Dr. Nayak has authored or co-authored over 190 research papers and several influential books, including Wireless Sensor and Actuator Networks. With over 9,000 citations to his name, his research continues to shape the way engineers design secure, interconnected environments. Today, he continues to mentor the next generation of engineers at the University of Ottawa, leading cutting-edge projects in distributed intelligence and cybersecurity."
+      ]
+    },
+    {
+      "name": "Prof. Pao-Ann Hsiung",
+      "photo": "images/keynote/pao-ann-hsiung.png",
+      "photoAlt": "Prof. Pao-Ann Hsiung",
+      "distinction": "IEEE Senior Member; ACM Senior Member",
+      "affiliation": "Department of Computer Science and Information Engineering, National Chung Cheng University, Chiayi, Taiwan",
+      "bio": [
+        "Dr. Pao-Ann Hsiung received his B.S. in Mathematics and his Ph.D. in Electrical Engineering from National Taiwan University, Taipei, Taiwan, in 1991 and 1996, respectively. From 1996 to 2000, he was a post-doctoral researcher at the Institute of Information Science, Academia Sinica, Taipei. From February 2001 to July 2002, he was an assistant professor and from August 2002 to July 2007 an associate professor in the Department of Computer Science and Information Engineering, National Chung Cheng University, Chiayi, Taiwan. Since August 2007, he has been a full professor at National Chung Cheng University.",
+        "Dr. Hsiung was the recipient of the 2001 ACM Taipei Chapter Kuo-Ting Li Young Researcher Award for his significant contributions to design automation of electronic systems, and the 2004 Young Scholar Research Award from National Chung Cheng University. He is a senior member of the IEEE, a senior member of the ACM, and a life member of the IICM. He has been included in several professional listings such as Marquis' Who's Who in the World, Marquis' Who's Who in Asia, and other international biographical directories.",
+        "Dr. Hsiung serves on editorial boards including the International Journal of Embedded Systems (IJES), the International Journal of Multimedia and Ubiquitous Engineering (IJMUE), the Journal of Software Engineering (JSE), the Open Software Engineering Journal (OSE), and the International Journal of Patterns (IJOP). He has served on the program committee of more than 50 international conferences, including roles as session organizer and chair for PDPTA'99 and as workshop organizer and chair for RTC'99, DSVV'2000, and PDES'2005.",
+        "He has published more than 170 papers in international journals and conferences and has taken an active part in paper refereeing for international journals and conferences. His main research interests include reconfigurable computing and system design, multi-core programming, cognitive radio architecture, System-on-Chip (SoC) design and verification, embedded software synthesis and verification, real-time system design and verification, hardware–software co-design and co-verification, and component-based object-oriented application frameworks for real-time embedded systems."
+      ]
+    },
+    {
+      "name": "Dr. Yu Yuan",
+      "photo": "images/keynote/yu-yuan.png",
+      "photoAlt": "Dr. Yu Yuan",
+      "distinction": "Former President, IEEE Standards Association",
+      "affiliation": "IEEE Standards Association (former leadership); Tsinghua University (Ph.D., M.S., B.S. in Computer Science)",
+      "bio": [
+        "Dr. Yu Yuan is an internationally recognized researcher, inventor and entrepreneur specializing in emerging technologies, including Artificial Intelligence, Virtual and Augmented Reality, the Metaverse, the Internet of Things (IoT), Blockchain and Digital Transformation. He holds a Ph.D., an M.S. and a B.S. in Computer Science from Tsinghua University.",
+        "He previously served as a Research Scientist at IBM Research, contributing to major technological initiatives, including the Cell Broadband Engine, Smarter Planet and the Internet of Things. He subsequently founded 0xSenses Corporation, a multinational company specializing in virtual and augmented reality and human augmentation, and co-founded VerseMaker, a metaverse platform.",
+        "Dr. Yuan served as President of the IEEE Standards Association in 2023 and as a member of the IEEE Board of Directors. He has played a significant role in advancing international technology standardization, particularly in consumer technology, blockchain, virtual and augmented reality, and emerging digital ecosystems. Under his leadership, the IEEE Consumer Technology Society Standards Committee received the IEEE Standards Association Standards Committee Award in 2019. He also established IEEE's first blockchain standards committee and has chaired the IEEE Virtual and Augmented Reality Working Group, bringing together participants from more than 200 companies and institutions.",
+        "Beyond his contributions to IEEE, Dr. Yuan is the Founder and Chairman of the Globalized Intelligent Virtualized Economy (GIVE) initiative, President of the Metaverse Acceleration and Sustainability Association, and Treasurer and Board Director of the Metaverse Standards Forum. He has also held leadership positions in international organizations dedicated to advancing metaverse technologies and digital innovation.",
+        "An IEEE Senior Member, Dr. Yuan continues to contribute to global technological innovation, international standardization and industry collaboration, with a focus on developing interoperable, intelligent and sustainable digital ecosystems."
+      ]
+    },
+    {
+      "name": "Prof. Congo Tak Shing Ching",
+      "photo": "images/keynote/congo-tak-shing-ching.jpg",
+      "photoAlt": "Prof. Congo Tak Shing Ching",
+      "distinction": "",
+      "affiliation": "Graduate Institute of Biomedical Engineering, National Chung Hsing University, Taiwan",
+      "bio": [
+        "Prof. Congo Tak Shing Ching is a Professor and Director of the Graduate Institute of Biomedical Engineering at National Chung Hsing University (NCHU), Taiwan. He also serves as Director of the Academia-Industry Promotion Division at the Academia-Industry Collaboration Center of NCHU.",
+        "He received his Bachelor’s degree in Prosthetics and Orthotics with First-Class Honours from The Hong Kong Polytechnic University in 1999, graduating first in his cohort, and subsequently obtained his MPhil degree in Biomedical Engineering from the same university in 2002. He completed his PhD in Bioengineering at the University of Strathclyde, Glasgow, United Kingdom, in 2005, specializing in biomedical electronics and instrumentation.",
+        "Following his doctoral studies, Prof. Ching received the Medical Devices Faraday Colorado Fellowship supported by the UK Department of Trade and Industry and conducted postdoctoral research at the University of Colorado at Denver and Health Sciences Center, USA. He was later awarded a Royal Society of Edinburgh Enterprise Fellowship and continued his research activities at the University of Strathclyde.",
+        "His research interests include biomedical instrumentation, biomedical electronics, biosensors, tissue bioimpedance, AIoT-enabled healthcare, rehabilitation and assistive technologies, microelectrode biosensing, and non-invasive monitoring of metabolites and biomarkers.",
+        "Prof. Ching has led numerous government-funded, hospital-based, and industry–academia collaborative projects and has actively promoted international academic exchange, student training, and technology translation. He has also served as a conference chair, scientific committee member, session chair, and keynote, plenary, and invited speaker at international conferences."
+      ]
+    }
+  ]
+}

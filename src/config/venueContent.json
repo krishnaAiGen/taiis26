@@ -1,0 +1,21 @@
+{
+  "galleryTitle": "Asia University Campus",
+  "gallery": [
+    {
+      "image": "images/venue/asia-university-1.png",
+      "alt": "Asia University administration building with green dome and campus sign"
+    },
+    {
+      "image": "images/venue/asia-university-2.jpg",
+      "alt": "Aerial view of Asia University main building and campus grounds"
+    },
+    {
+      "image": "images/venue/asia-university-3.png",
+      "alt": "Asia University entrance and classical facade with green dome"
+    },
+    {
+      "image": "images/venue/asia-university-4.jpg",
+      "alt": "Asia University main building viewed across the campus lawn"
+    }
+  ]
+}

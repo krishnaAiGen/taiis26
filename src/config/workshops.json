@@ -1,0 +1,175 @@
+{
+  "title": "Workshops",
+  "intro": "TAIIS 2026 hosts the following workshops. Authors are invited to submit contributions aligned with the respective workshop themes through the conference submission system (Microsoft CMT).",
+  "sectionTitles": {
+    "aimAndScope": "Aim and Scope",
+    "topics": "List of Topics",
+    "committees": "Chair",
+    "submissionDates": "Submission Dates",
+    "submission": "Submission"
+  },
+  "workshops": [
+    {
+      "code": "WS1",
+      "title": "Intelligent AIoT for Industry 5.0, Smart Manufacturing and Sustainable Production (AIoT-Industry5)",
+      "acronym": "AIoT-Industry5",
+      "aimAndScope": [
+        "Manufacturing and production systems are transitioning toward Industry 5.0 paradigms that prioritize human-centric collaboration, resilience, and sustainability alongside throughput and quality. Intelligent AIoT fuses embedded sensing, edge analytics, and cloud optimization across shop floors, supply chains, and energy systems, enabling predictive maintenance, adaptive scheduling, and granular environmental accounting. Yet plants remain heterogeneous mosaics of legacy OT, proprietary PLCs, and new wireless sensors whose data models rarely align. Design teams struggle with safe human–robot interaction, digital thread continuity, and validating AI under hard real-time and safety constraints. During operation, OT/IT convergence expands cyber exposure, while sustainability KPIs demand traceable energy and material flows that many MES/ERP integrations cannot yet supply. Without trustworthy, interoperable AIoT, Industry 5.0 goals risk remaining aspirational slogans rather than measurable production outcomes.",
+        "Workshop AIoT-Industry5 (Intelligent AIoT for Industry 5.0, Smart Manufacturing and Sustainable Production) confronts these challenges through edge intelligence, digital twins, collaborative robotics, green manufacturing analytics, and secure industrial connectivity. The workshop solicits systems papers, benchmarks, standards-oriented studies, and industrial pilots demonstrating human-centric, sustainable AIoT in real factories. It offers an internationally leading interdisciplinary forum enabling manufacturing engineers, automation researchers, and sustainability specialists to co-design intelligent production ecosystems for Industry 5.0."
+      ],
+      "topics": [
+        "AIoT reference architectures for Industry 5.0 and smart factories",
+        "Edge intelligence and predictive maintenance in production lines",
+        "Digital twins for manufacturing, quality, and energy optimization",
+        "Human–robot collaboration and worker-centric safety analytics",
+        "Sustainable production, carbon/energy metrics, and circular processes",
+        "Computer vision and IoT for inline quality inspection",
+        "Supply chain traceability, logistics sensing, and resilience",
+        "OT/IT security, zero trust, and secure industrial AIoT",
+        "5G, TSN, and private wireless in manufacturing environments",
+        "Standards, testbeds, and reproducibility for industrial AIoT"
+      ],
+      "chairs": [
+        {
+          "name": "Nadia Nedjah",
+          "affiliation": "State University of Rio de Janeiro, Brazil"
+        }
+      ]
+    },
+    {
+      "code": "WS2",
+      "title": "Intelligent Business Analytics, AI-Enabled Decision Support and Digital Management (AI-BADM)",
+      "acronym": "AI-BADM",
+      "aimAndScope": [
+        "Enterprises are inundated with IoT-generated events—from retail footfall and cold-chain sensors to industrial throughput and facility energy meters—that could fuel continuous, AI-enabled decision support if data products were trustworthy, timely, and organizationally actionable. Instead, many firms operate fragmented dashboards, duplicated KPI definitions, and shadow AI experiments disconnected from ERP, CRM, and compliance workflows. Executives require explainable recommendations under regulatory scrutiny, while operational teams need prescriptive analytics that respect data sovereignty and role-based access. Design of intelligent business analytics platforms must reconcile batch BI heritage with streaming IoT, causal inference demands, and low-code adoption by non-specialists. In deployment, poor data quality, missing lineage, and opaque models erode confidence in automated decisions affecting pricing, staffing, inventory, and risk. Digital management therefore faces a structural gap between IoT connectivity and accountable, AI-enabled enterprise governance.",
+        "Workshop AI-BADM (Intelligent Business Analytics, AI-Enabled Decision Support and Digital Management) addresses this gap through prescriptive and causal analytics, process mining, IoT data products, intelligent dashboards, and integration with enterprise systems. The workshop welcomes methodological advances, platform architectures, and sector case studies in finance, retail, services, and public administration. It offers a premier interdisciplinary forum enabling analytics researchers, CIOs, and management scientists to converge on AI–IoT decision support that is transparent, scalable, and aligned with organizational strategy."
+      ],
+      "topics": [
+        "AI-enabled business intelligence and executive decision support",
+        "IoT data products, streaming analytics, and digital twins for business",
+        "Process mining, workflow automation, and intelligent RPA",
+        "Prescriptive, causal, and explainable analytics for management",
+        "Low-code AI and digital management platforms",
+        "Demand forecasting, inventory, and revenue operations with IoT signals",
+        "Customer experience and omnichannel analytics using connected devices",
+        "Risk, fraud, and compliance analytics in regulated industries",
+        "Organizational adoption, AI literacy, and change management",
+        "Case studies of AI–IoT in digital enterprise management"
+      ],
+      "chairs": [
+        {
+          "name": "Dr Akshat Gaurav",
+          "affiliation": "Ronin Institute, USA"
+        }
+      ]
+    },
+    {
+      "code": "WS3",
+      "title": "Generative AI, LLMs and Agentic Intelligence for Connected IoT Systems (GenAI-IoT)",
+      "acronym": "GenAI-IoT",
+      "aimAndScope": [
+        "Connected IoT ecosystems—smart buildings, cities, factories, and vehicles—are becoming orchestration surfaces for generative AI, large language models, and multi-agent workflows that translate natural language into device actions, maintenance plans, and cross-vendor automations. These capabilities promise dramatic reductions in integration cost and mean-time-to-repair, yet they amplify classic IoT pains: inconsistent APIs, unreliable telemetry, and weak identity boundaries now exposed to tool-using agents and retrieval pipelines. Designers must ground models in live sensor context without leaking secrets across tenants, while edge hardware limits the size and update cadence of deployed models. Runtime failures include hallucinated device commands, cascading agent loops, and prompt-injection via compromised logs or user-facing chat channels. Evaluation lacks standardized benchmarks for agentic IoT tasks spanning safety, latency, and cost. The field urgently needs principled architectures for trustworthy GenAI operation over physical infrastructure.",
+        "Workshop GenAI-IoT (Generative AI, LLMs and Agentic Intelligence for Connected IoT Systems) explores LLM agents, retrieval grounding on telemetry and knowledge graphs, multimodal GenAI, on-device inference, and safety guardrails for IoT platforms. The workshop invites systems prototypes, benchmarks, industrial copilots, and security analyses. It offers an internationally leading forum enabling GenAI researchers, IoT platform engineers, and safety engineers to co-design agentic intelligence that is reliable, auditable, and deployable across connected environments."
+      ],
+      "topics": [
+        "LLM-based agents for multi-vendor IoT orchestration",
+        "Tool calling, MCP, and schema grounding for device APIs",
+        "Multimodal GenAI over vision, audio, and time-series telemetry",
+        "On-device and edge deployment of generative models",
+        "Synthetic scenario and test-case generation for IoT QA",
+        "Policy enforcement, guardrails, and formal constraints on agents",
+        "Human–agent collaboration in NOC/SOC and field service",
+        "Fine-tuning, RAG, and knowledge graphs for IoT domains",
+        "Benchmarks and red-teaming for agentic IoT workloads",
+        "Industrial copilots for commissioning, diagnostics, and compliance"
+      ],
+      "chairs": [
+        {
+          "name": "Sunneng Sandino Berutu",
+          "affiliation": "Universitas Duta Bangsa Surakarta, Indonesia"
+        }
+      ]
+    },
+    {
+      "code": "WS4",
+      "title": "Quantum Computing, Quantum AI and Post-Quantum Security for Emerging Technologies (Q-PACT)",
+      "acronym": "Q-PACT",
+      "aimAndScope": [
+        "Emerging AI and IoT ecosystems depend on public-key cryptography and long-lived device identities that quantum adversaries may undermine via harvest-now–decrypt-later strategies, even before fault-tolerant quantum computers arrive at scale. Simultaneously, quantum computing and quantum machine learning offer new optimization and sensing capabilities for networking, logistics, and scientific IoT, creating a dual landscape of opportunity and cryptographic crisis. IoT and edge nodes—often deployed for decades with limited crypto agility—face severe constraints on memory, energy, and update mechanisms when migrating to post-quantum algorithms. Network designers must plan hybrid classical–quantum workflows, QKD where feasible, and resource-aware PQC suites without breaking latency-sensitive control loops. Research teams lack unified threat models spanning quantum algorithms, AI model theft, and constrained device supply chains. Data-sovereignty and critical-infrastructure rules further complicate cross-border key management and auditability for quantum-ready architectures.",
+        "Workshop Q-PACT (Quantum Computing, Quantum AI and Post-Quantum Security for Emerging Technologies) addresses quantum ML, hybrid optimization, PQC migration, QKD integration, and crypto-agility for AI–IoT systems. The workshop welcomes theoretical advances, embedded implementations, migration roadmaps, and policy-oriented analyses. It offers a premier interdisciplinary forum enabling cryptographers, quantum researchers, network architects, and IoT security practitioners to converge on quantum-aware, trustworthy intelligent infrastructure."
+      ],
+      "topics": [
+        "Quantum machine learning for IoT analytics and optimization",
+        "Hybrid quantum–classical algorithms for networks and logistics",
+        "Post-quantum cryptography for constrained IoT and edge devices",
+        "Quantum key distribution and quantum-safe link engineering",
+        "Crypto-agility, migration planning, and lifecycle management",
+        "Quantum sensing and metrology in industrial IoT",
+        "Harvest-now–decrypt-later threat models and mitigations",
+        "Lightweight PQC implementations and hardware acceleration",
+        "Standards (NIST PQC), compliance, and certification pathways",
+        "Education and workforce development for quantum-ready security"
+      ],
+      "chairs": [
+        {
+          "name": "Jun-Hong Shen",
+          "affiliation": "National United University, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "WS5",
+      "title": "AI, 6G Networks and Intelligent Next-Generation Communications (AI-6G)",
+      "acronym": "AI-6G",
+      "aimAndScope": [
+        "Next-generation communications—6G and beyond—are envisioned as AI-native, software-defined fabrics integrating massive IoT, ultra-reliable low-latency services, non-terrestrial links, and integrated sensing and communication (ISAC) into a single hyper-distributed infrastructure. These networks must orchestrate spectrum, compute, and storage across RAN, edge, and core while serving heterogeneous IoT classes from industrial URLLC to battery-less sensors. Researchers confront open problems in AI-managed radio resource allocation, semantic and goal-oriented communication, and zero-touch provisioning at scales that exceed manual engineering. Operational complexity intensifies when multi-vendor Open RAN, private 5G/6G campuses, and satellite backhaul must interoperate without synchronized security policies. Trustworthy AI for telecom infrastructure is non-optional: poisoned training data or compromised ML controllers could degrade nationwide connectivity. Standardization timelines (3GPP, ITU) and regulatory expectations add pressure to demonstrate reproducible, auditable AI in live network trials.",
+        "Workshop AI-6G (AI, 6G Networks and Intelligent Next-Generation Communications) explores AI-native air interfaces, network digital twins, edge AI for RAN intelligent controllers, semantic communication, and security for AI-managed 6G supporting massive IoT. The workshop invites simulation studies, testbed results, theoretical models, and standardization perspectives. It offers an internationally leading forum enabling wireless researchers, network operators, and IoT application developers to co-design intelligent next-generation communications for trustworthy connected societies."
+      ],
+      "topics": [
+        "AI-native physical layer and intelligent beam/resource management",
+        "Network digital twins and intent-based autonomous networking",
+        "Integrated sensing and communication (ISAC) for IoT localization",
+        "Edge AI and distributed learning in RAN/core environments",
+        "Semantic and goal-oriented communication for bandwidth efficiency",
+        "Massive IoT (mMTC) connectivity and access optimization",
+        "URLLC for industrial, vehicular, and tactile IoT applications",
+        "Zero-touch provisioning, AIOps, and closed-loop network automation",
+        "Security, privacy, and adversarial robustness in AI-managed networks",
+        "Testbeds, digital twin simulators, and 3GPP/ITU standardization tracks"
+      ],
+      "chairs": [
+        {
+          "name": "Jinsong Wu",
+          "affiliation": "Department of Electrical Engineering, University of Chile, Santiago, Chile"
+        }
+      ]
+    },
+    {
+      "code": "WS6",
+      "title": "AI and Cybersecurity for Space Missions, Satellites and Space Systems (AI-SpaceSec)",
+      "acronym": "AI-SpaceSec",
+      "aimAndScope": [
+        "Space missions and satellite constellations now underpin global communications, Earth observation IoT backhaul, navigation, and defense-aware sensing—forming a contested, congested orbital environment coupled to vulnerable ground segments. Onboard AI enables autonomous maneuvering, payload analytics, and compression of downlink traffic, yet space-grade compute, radiation effects, and strict energy budgets limit model complexity and retraining frequency. Ground stations and TT&C links remain high-value cyber targets where compromise can affect entire fleets. Supply-chain integrity for space hardware and firmware, long asset lifetimes, and slow patch cycles exacerbate exposure to advanced persistent threats. Emerging integration with terrestrial 5G/6G and direct-to-device IoT extends the attack surface across regulatory jurisdictions. Quantum-safe links, zero-trust ground architectures, and verified autonomous controllers are becoming mission requirements rather than research curiosities.",
+        "Workshop AI-SpaceSec (AI and Cybersecurity for Space Missions, Satellites and Space Systems) addresses onboard ML, autonomous mission planning, secure TT&C, space situational awareness analytics, and supply-chain assurance for space–terrestrial IoT. The workshop solicits aerospace case studies, security architectures, radiation-tolerant AI implementations, and policy analyses. It offers a premier interdisciplinary forum enabling aerospace engineers, cybersecurity researchers, and AI specialists to converge on trustworthy intelligent space systems."
+      ],
+      "topics": [
+        "Onboard edge AI and radiation-tolerant ML accelerators",
+        "Autonomous mission planning, FDIR, and constellation management",
+        "Cybersecurity for ground segment, TT&C, and mission control",
+        "Threat detection for space IoT, NTN, and hybrid terrestrial links",
+        "Secure onboard software update, attestation, and key management",
+        "Space situational awareness and debris tracking using AI",
+        "Quantum-safe and high-assurance communications for space links",
+        "Supply chain, firmware, and hardware root-of-trust for space systems",
+        "AI for Earth observation, remote sensing, and IoT backhaul analytics",
+        "Policy, regulation, and international cooperation for space cyber defense"
+      ],
+      "chairs": [
+        {
+          "name": "Mu-Yen Chen",
+          "affiliation": "Professor, National Cheng Kung University, Tainan, Taiwan"
+        }
+      ]
+    }
+  ]
+}

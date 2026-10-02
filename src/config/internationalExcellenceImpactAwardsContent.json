@@ -1,0 +1,297 @@
+{
+  "title": "International Excellence and Impact Awards",
+  "subtitle": "Celebrating Excellence in Research, Education, Industry, Entrepreneurship and Responsible Innovation",
+  "callForNominations": "Call for Nominations Now Open",
+  "intro": [
+    "The Organizing Committee of the International Conference on Trustworthy AI and Intelligent IoT Systems (TAIIS 2026) invites nominations for the TAIIS 2026 International Excellence and Impact Awards.",
+    "The awards recognise researchers, academicians, educators, industry professionals, innovators, entrepreneurs, start-ups, research teams, and institutions that have made meaningful and verifiable contributions to artificial intelligence, cybersecurity, intelligent IoT systems, computing, education, entrepreneurship, and responsible technological development.",
+    "The awards will be presented during TAIIS 2026, to be held from December 3–5, 2026, at Asia University, Taichung, Taiwan."
+  ],
+  "nominationFormUrl": "https://forms.gle/a1CM43Wdzimm2cZV8",
+  "submitNominationButtonLabel": "Submit a Nomination",
+  "actionLinks": [
+    { "label": "Submit a Nomination", "href": "https://forms.gle/a1CM43Wdzimm2cZV8", "external": true },
+    { "label": "Nomination requirements", "href": "#nomination-requirements" },
+    { "label": "Award categories", "href": "#award-categories" }
+  ],
+  "importantDatesTitle": "Important Dates",
+  "importantDates": [
+    { "activity": "Opening of nominations", "date": "September 25, 2026" },
+    { "activity": "Nomination deadline", "date": "October 20, 2026" },
+    { "activity": "Eligibility and documentation review", "date": "October 21–25, 2026" },
+    { "activity": "Expert committee evaluation", "date": "October 26–November 6, 2026" },
+    { "activity": "Final review and approval", "date": "November 7–10, 2026" },
+    { "activity": "Notification to selected awardees", "date": "November 12, 2026" },
+    { "activity": "Award ceremony", "date": "December 5, 2026" }
+  ],
+  "importantDatesNote": "The Awards Committee reserves the right to revise the schedule where necessary. Any changes will be announced on this page.",
+  "awardCategoriesTitle": "Award Categories",
+  "awardCategoryGroups": [
+    {
+      "title": "Academic and Research Excellence",
+      "items": [
+        "Lifetime Achievement Award",
+        "Distinguished Researcher Award",
+        "Academic Leadership Excellence Award",
+        "Outstanding Research Mentor Award",
+        "Excellence in Teaching Innovation Award"
+      ]
+    },
+    {
+      "title": "Young and Emerging Talent",
+      "items": [
+        "Best Young Researcher Award",
+        "Young Innovator Award",
+        "Rising Technology Professional Award"
+      ]
+    },
+    {
+      "title": "Industry and Professional Excellence",
+      "items": [
+        "Industry Excellence Award",
+        "Technology Innovation Award",
+        "Research-to-Industry Impact Award",
+        "Digital Transformation Leadership Award"
+      ]
+    },
+    {
+      "title": "Start-up and Entrepreneurship",
+      "items": [
+        "Startup of the Year Award",
+        "Best AI and Intelligent Systems Startup Award",
+        "Best Cybersecurity Startup Award",
+        "Emerging Deep-Tech Startup Award",
+        "Social Impact Startup Award"
+      ]
+    },
+    {
+      "title": "Global Leadership and Impact",
+      "items": [
+        "Global Research Excellence Award",
+        "Global Innovation Leadership Award",
+        "International Research Collaboration Award",
+        "AI for Social Good Award",
+        "Sustainable Technology Impact Award"
+      ]
+    },
+    {
+      "title": "Institutional and Partnership Excellence",
+      "items": [
+        "Outstanding Institution in Responsible Digital Innovation Award",
+        "Academia–Industry Partnership Award",
+        "Innovation Ecosystem Builder Award"
+      ]
+    },
+    {
+      "title": "Special Recognition",
+      "items": [
+        "Outstanding Service to the Research Community Award",
+        "Inclusive Technology Leadership Award",
+        "Special Jury Recognition Award"
+      ]
+    }
+  ],
+  "awardCategoriesNote": "Not every category must necessarily result in an award. The Awards Committee may withhold or combine a category when the nominations do not meet the expected standards or when an insufficient number of eligible nominations is received.",
+  "whoCanBeNominatedTitle": "Who Can Be Nominated?",
+  "whoCanBeNominatedIntro": "Nominations may be submitted for:",
+  "whoCanBeNominated": [
+    "Researchers and academicians",
+    "Teachers and academic leaders",
+    "Doctoral and early-career researchers",
+    "Engineers and technology professionals",
+    "Industry leaders and professional teams",
+    "Entrepreneurs and start-up founders",
+    "Registered start-ups and technology companies",
+    "Research laboratories and innovation centres",
+    "Universities and higher education institutions",
+    "Public-sector and non-profit organisations",
+    "International and academia–industry partnerships"
+  ],
+  "whoCanBeNominatedNote": "Nominations are open internationally. The nominee’s contribution should be relevant to research, education, technology, innovation, entrepreneurship, or societal development.",
+  "whoCanSubmitTitle": "Who Can Submit a Nomination?",
+  "whoCanSubmitIntro": "A nomination may be submitted through:",
+  "whoCanSubmit": [
+    "Self-nomination",
+    "Nomination by an academic or professional peer",
+    "Nomination by a university, department, or research centre",
+    "Nomination by an employer or industry organisation",
+    "Nomination by a professional association",
+    "Recommendation by a TAIIS committee member or invited expert"
+  ],
+  "whoCanSubmitNote": "A third-party nominator must obtain the nominee’s consent before submitting personal information or supporting documentation.",
+  "nominationRequirementsTitle": "Nomination Requirements",
+  "nominationRequirementsIntro": "Each nomination must include:",
+  "nominationRequirements": [
+    "Award name",
+    "Nominee name",
+    "Nominee organisation",
+    "Nominee email",
+    "Nominee summary — provide a brief summary of why this nominee deserves the recognition",
+    "Key achievement — list the most significant achievements and contributions",
+    "Impact description — describe the nominee’s impact on education, industry, and society",
+    "Innovation and uniqueness — describe what makes the nominee’s approach innovative and unique",
+    "Supporting documents (Google Drive link) — upload all supporting documents (CV, letters of recommendation, testimonials, research documents, award certificates, impact reports, media coverage, and related materials) to a single Google Drive folder and provide the folder link in the nomination form. Set sharing permission to “Anyone with the link can view” so documents can be accessed without a permission request."
+  ],
+  "nominationRequirementsNote": "All fields on the online nomination form are required. General promotional statements without verifiable supporting documents may not be considered sufficient.",
+  "youngResearchersTitle": "Eligibility of Young Researchers",
+  "youngResearchersParagraphs": [
+    "Candidates for the Best Young Researcher Award should normally be within ten years of receiving their highest research degree as of the nomination deadline.",
+    "Documented career interruptions—including parental leave, long-term illness, caregiving responsibilities, compulsory national service, or other exceptional circumstances—may be considered when determining eligibility.",
+    "The evaluation will focus on research independence, originality, quality, demonstrated impact, and future potential rather than age alone."
+  ],
+  "howToSubmitTitle": "How to Submit a Nomination",
+  "howToSubmitSteps": [
+    {
+      "title": "Step 1: Select the Appropriate Category",
+      "description": "Review all award categories and choose the award name that best represents the nominee’s principal contribution."
+    },
+    {
+      "title": "Step 2: Prepare Supporting Documents",
+      "description": "Prepare the nominee summary, key achievements, impact description, and innovation statement. Upload CV, letters of recommendation, testimonials, research documents, certificates, impact reports, media coverage, and other supporting materials to one Google Drive folder with link sharing set to “Anyone with the link can view.”"
+    },
+    {
+      "title": "Step 3: Complete the Online Form",
+      "description": "Submit all required information through the official online nomination form, including the Google Drive folder link."
+    },
+    {
+      "title": "Step 4: Receive Confirmation",
+      "description": "After successful submission, the nominator will receive an acknowledgement. The Awards Committee may request additional information or clarification during evaluation."
+    }
+  ],
+  "nominationFormNote": "Nominations sent through informal social-media messages will not be considered.",
+  "evaluationProcessTitle": "Evaluation Process",
+  "evaluationProcess": [
+    {
+      "title": "Stage 1: Eligibility and Completeness Check",
+      "description": "The Awards committee will verify the selected category, eligibility of the nominee, completeness of the submission, and availability of supporting evidence."
+    },
+    {
+      "title": "Stage 2: Conflict-of-Interest Review",
+      "description": "Nominations will be assigned to evaluators who do not have a direct supervisory, institutional, financial, or personal conflict with the nominee."
+    },
+    {
+      "title": "Stage 3: Independent Expert Evaluation",
+      "description": "Each eligible nomination will normally be assessed independently by at least two experts using the published evaluation framework."
+    },
+    {
+      "title": "Stage 4: Evidence Verification",
+      "description": "The committee may verify publications, patents, affiliations, start-up registrations, products, deployments, partnerships, and other important claims. Additional clarification may be requested."
+    },
+    {
+      "title": "Stage 5: Committee Deliberation",
+      "description": "Shortlisted nominations will be considered by the Awards Committee, taking into account the expert evaluations and category-specific requirements."
+    },
+    {
+      "title": "Stage 6: Final Approval",
+      "description": "The final recommendations will be reviewed and approved by the authorised TAIIS 2026 Awards Committee."
+    }
+  ],
+  "evaluationCriteriaTitle": "Evaluation Criteria",
+  "evaluationCriteria": [
+    { "criterion": "Originality and significance", "weight": "25%" },
+    { "criterion": "Verifiable academic, industrial, economic, or societal impact", "weight": "25%" },
+    { "criterion": "Technical or professional excellence", "weight": "20%" },
+    { "criterion": "Leadership, collaboration, or mentorship", "weight": "15%" },
+    { "criterion": "Ethical and responsible practice", "weight": "10%" },
+    { "criterion": "Sustainability and future potential", "weight": "5%" }
+  ],
+  "evaluationCriteriaNotes": [
+    "The committee may adjust the emphasis according to the category. For example:",
+    "Academic awards will emphasise research, education, mentorship, and scholarly leadership;",
+    "Industry awards will emphasise implementation, adoption, reliability, and measurable value;",
+    "Start-up awards will emphasise innovation, market validation, scalability, governance, and growth potential;",
+    "Global awards will emphasise international reach, cross-border collaboration, inclusiveness, and societal impact;",
+    "Institutional awards will emphasise strategy, continuity, ecosystem development, and verified organisational outcomes."
+  ],
+  "integrityTitle": "Integrity and Transparency",
+  "integrityItems": [
+    "Nomination and evaluation will be based on merit and verifiable evidence.",
+    "Submission of a nomination does not guarantee selection.",
+    "Evaluators must disclose relevant conflicts of interest.",
+    "False, misleading, plagiarised, or fabricated information may result in disqualification.",
+    "The committee may contact the nominee’s institution or nominated referees to verify important claims.",
+    "Confidential nomination material will be used only for evaluation and administrative purposes.",
+    "Information about selected recipients will be published only after confirmation and consent.",
+    "Normally, an individual or organisation will receive no more than one nomination-based award in the same edition.",
+    "The Awards Committee may withhold an award when no nomination meets the required standard.",
+    "Decisions of the Awards Committee will be final."
+  ],
+  "recognitionTitle": "Recognition and Benefits",
+  "recognitionIntro": "Selected awardees will receive:",
+  "recognitionItems": [
+    "An official Certificate of Excellence",
+    "A commemorative plaque or trophy",
+    "Recognition during the TAIIS 2026 Award Ceremony",
+    "An award citation published on the conference website",
+    "Recognition through official conference communication and social-media channels",
+    "Inclusion in the TAIIS 2026 list of award recipients"
+  ],
+  "conferencePaperAwardsTitle": "Relationship with Conference Paper Awards",
+  "conferencePaperAwardsIntro": "These nomination-based awards are separate from awards determined through the conference paper-review and presentation process, including:",
+  "conferencePaperAwards": [
+    "Best Conference Paper Award",
+    "Best Student Paper Award",
+    "Best Oral Presentation Award",
+    "Best Poster Presentation Award",
+    "Best Doctoral Research Paper Award",
+    "Best Doctoral Research Presentation Award",
+    "Best Doctoral Research Poster Award",
+    "Doctoral Research Innovation Award"
+  ],
+  "conferencePaperAwardsNote": "A separate nomination is not required for conference paper and presentation awards.",
+  "downloadsTitle": "Downloads and Important Links",
+  "downloads": [
+    {
+      "label": "Nomination Guidelines",
+      "description": "TAIIS 2026 International Awards Nomination Guidelines (PDF — to be published)"
+    },
+    {
+      "label": "Award Categories and Criteria",
+      "description": "Detailed Award Categories and Evaluation Criteria (PDF — to be published)"
+    },
+    {
+      "label": "Nomination Form",
+      "description": "Submit an online nomination (link to be published)"
+    },
+    {
+      "label": "Nomination Template",
+      "description": "Award Nomination Template (Word — to be published)"
+    }
+  ],
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "Is self-nomination permitted?",
+      "answer": "Yes. Self-nomination, peer nomination, and institutional nomination are permitted."
+    },
+    {
+      "question": "Is submitting a conference paper compulsory?",
+      "answer": "No. These nomination-based awards are independent of conference paper submission and publication."
+    },
+    {
+      "question": "Can one person be nominated for multiple categories?",
+      "answer": "A nominee may be proposed for a maximum of two categories. However, the committee will normally confer only one nomination-based award on the same recipient."
+    },
+    {
+      "question": "Will every announced category have a winner?",
+      "answer": "Not necessarily. An award will be presented only when at least one nomination meets the required quality standard."
+    },
+    {
+      "question": "Is physical attendance compulsory?",
+      "answer": "Physical participation is encouraged but is not a condition of selection. Online recognition may be approved for recipients unable to travel."
+    },
+    {
+      "question": "Will nomination materials be published?",
+      "answer": "Nomination documents will not be publicly released. For selected recipients, only the approved biography, photograph, award citation, and relevant public links may be published."
+    },
+    {
+      "question": "Are awards connected with Springer publication?",
+      "answer": "No. These awards are independently administered by the TAIIS 2026 Organizing Committee. They have no influence on Springer Nature’s editorial, quality-control, or publication decisions."
+    }
+  ],
+  "contactTitle": "Contact",
+  "contactIntro": "For award-related enquiries, please contact the TAIIS 2026 Committee.",
+  "contactEmailSubject": "TAIIS 2026 Award Nomination Query",
+  "disclaimerTitle": "Important Disclaimer",
+  "disclaimer": "The International Excellence and Impact Awards are administered independently by the TAIIS 2026 Organizing Committee. Reference to the conference’s planned proceedings publisher or indexing services must not be interpreted as endorsement, sponsorship, evaluation, or approval of these awards by Springer Nature, Scopus, EI Compendex, or any other external organisation."
+}

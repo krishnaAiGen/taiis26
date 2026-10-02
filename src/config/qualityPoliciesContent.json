@@ -1,0 +1,61 @@
+{
+  "title": "Quality Policies",
+  "intro": "By submitting a manuscript to the International Conference on Trustworthy AI and Intelligent IoT Systems (TAIIS 2026), authors agree to comply with the conference policies, submission requirements, and standards of publication ethics. TAIIS 2026 is committed to maintaining high standards of academic integrity, peer review, research quality, and ethical publication practices.",
+  "sections": [
+    {
+      "title": "Declaration by the Authors",
+      "intro": "By submitting a manuscript to TAIIS 2026, the authors confirm that:",
+      "items": [
+        "The submitted manuscript represents original work carried out by the author(s) and has not been published previously in substantially the same form.",
+        "All listed authors have made meaningful contributions to the work and have approved the submitted version of the manuscript.",
+        "The corresponding author has obtained the consent of all co-authors before submitting the manuscript and including their names and affiliations.",
+        "The manuscript is not simultaneously under review by another conference, journal, or publication venue.",
+        "All sources, data, figures, tables, methods, and previously published materials have been appropriately acknowledged and cited.",
+        "The manuscript complies with applicable ethical standards and does not contain plagiarism, fabricated or falsified results, inappropriate manipulation of data, or misleading claims.",
+        "Authors are responsible for ensuring the accuracy, authenticity, and integrity of all content presented in their manuscript.",
+        "Authors must disclose any relevant conflicts of interest where applicable.",
+        "If the manuscript is accepted, at least one author must complete the required registration and present the work at the conference in accordance with TAIIS 2026 presentation requirements.",
+        "Authors agree to follow the publication ethics, formatting requirements, and other guidelines established by TAIIS 2026 and the conference proceedings publisher."
+      ]
+    },
+    {
+      "title": "Peer Review and Quality Control",
+      "paragraphs": [
+        "Submitted manuscripts will undergo a peer-review process coordinated by the TAIIS 2026 Technical Program Committee.",
+        "Reviewers will evaluate submissions based on factors such as originality, technical quality, relevance, methodological soundness, clarity, significance, and contribution to the field.",
+        "The conference may use plagiarism/similarity detection and other quality-control procedures during different stages of the review and publication process.",
+        "Authors may be required to revise their manuscripts in response to reviewers' comments before final acceptance.",
+        "Acceptance of a manuscript does not automatically guarantee inclusion in the final proceedings. Authors must satisfy the camera-ready, formatting, registration, presentation, and publisher requirements."
+      ]
+    },
+    {
+      "title": "Rights of the Conference Organizers",
+      "paragraphs": [
+        "Assignment of manuscripts to appropriate reviewers is managed by the TAIIS 2026 Technical Program Committee.",
+        "Final acceptance decisions will consider the reviewers' assessments, technical quality, relevance to the conference scope, and compliance with conference policies.",
+        "The organizers reserve the right to determine the conference program, presentation format, session allocation, and scheduling of accepted papers.",
+        "Information regarding accepted papers, including titles, author names, affiliations, and presentation schedules, may be published on the conference website and official conference materials.",
+        "The organizers may revise important dates or conference arrangements when necessary. Any significant changes will be communicated through official conference channels.",
+        "A paper may be excluded from the proceedings if the final manuscript fails to meet required standards relating to technical quality, publication ethics, language, formatting, registration, presentation, or publisher requirements.",
+        "The conference reserves the right to investigate suspected violations of publication ethics and take appropriate action when necessary.",
+        "Photographs, audio, and video may be recorded during conference activities and may be used for legitimate conference reporting, documentation, archival, and promotional purposes, subject to applicable policies and requirements."
+      ]
+    },
+    {
+      "title": "Publication Ethics",
+      "paragraphs": [
+        "TAIIS 2026 is committed to responsible scholarly publishing and expects authors, reviewers, editors, and committee members to uphold recognized principles of publication ethics.",
+        "Cases involving plagiarism, duplicate submission, fabricated or falsified data, inappropriate authorship, undisclosed conflicts of interest, or other forms of research misconduct may result in rejection or removal of the manuscript from further consideration.",
+        "Where applicable, publication-related requirements and ethical policies of the conference proceedings publisher will also apply."
+      ]
+    },
+    {
+      "title": "Financial Obligations",
+      "paragraphs": [
+        "Registration fees are generally non-refundable for accepted papers that are not presented at the conference, subject to the official TAIIS 2026 registration and cancellation policy.",
+        "Failure to satisfy registration, presentation, camera-ready submission, or publication requirements may result in exclusion of the paper from the proceedings.",
+        "If a manuscript is excluded because of publication-ethics violations, serious quality issues, non-compliance with conference requirements, or publisher requirements, any refund will be governed by the official TAIIS 2026 registration and refund policy."
+      ]
+    }
+  ]
+}

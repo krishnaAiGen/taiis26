@@ -1,0 +1,23 @@
+{
+  "submissionDates": [
+    {
+      "label": "Paper Submission Deadline",
+      "date": "October 12, 2026 (Hard Deadline)",
+      "supersededDate": "September 30, 2026"
+    },
+    {
+      "label": "Acceptance Notification",
+      "date": "October 30, 2026",
+      "supersededDate": "October 15, 2026"
+    },
+    { "label": "Camera-Ready Submission", "date": "November 05, 2026" },
+    { "label": "Conference Dates", "date": "December 3–5, 2026" }
+  ],
+  "committeesNote": "Session and workshop chair names, program committee members, and contact details will be published on the TAIIS 2026 website when finalized. Until then, please direct inquiries to the conference secretariat at taiis2026@cyber-conf.com.",
+  "submission": {
+    "sectionTitle": "Submission",
+    "specialSessionIntro": "Authors must submit papers through the Microsoft Conference Management Toolkit (Microsoft CMT). When completing your submission, please select special session {code} — {title} — so your manuscript is routed to the correct session chairs for review.",
+    "workshopIntro": "Authors must submit papers through the Microsoft Conference Management Toolkit (Microsoft CMT). When completing your submission, please select workshop {code} — {title} — so your manuscript is routed to the correct workshop chairs for review.",
+    "submitButtonLabel": "Submit Paper"
+  }
+}

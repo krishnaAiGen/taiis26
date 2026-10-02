@@ -1,0 +1,33 @@
+{
+  "title": "Paper Submission",
+  "cmtUrl": "https://cmt3.research.microsoft.com/TAIIS2026",
+  "cmtLinkText": "Microsoft CMT",
+  "pageLimit": 10,
+  "pageLimitNote": "Submitted papers must not exceed 10 pages (including figures, tables, references, and appendices).",
+  "guidelinesTitle": "Submission Guidelines",
+  "guidelines": [
+    "All submissions must be written in English and must present original, unpublished work that is not under review elsewhere.",
+    "Papers must be formatted using the official Springer conference proceedings template (LaTeX or Word) and submitted as PDF via Microsoft CMT before the deadline.",
+    "The maximum length is 10 pages, including all sections, figures, tables, references, and appendices.",
+    "Authors should follow the Springer author instructions for conference proceedings and ensure that all fonts and margins comply with the template."
+  ],
+  "templatesTitle": "Paper Templates",
+  "templatesIntro": "Please use one of the following Springer conference proceedings templates when preparing your manuscript:",
+  "templates": [
+    {
+      "name": "LaTeX (Overleaf)",
+      "description": "Springer Conference Proceedings template (updated January 2022). Open in Overleaf or download the source for local editing.",
+      "url": "https://www.overleaf.com/latex/templates/springer-conference-proceedings-template-updated-2022-01-12/wcvbtmwtykqj",
+      "linkLabel": "Open LaTeX template on Overleaf"
+    },
+    {
+      "name": "Microsoft Word",
+      "description": "Official Word template for Springer conference proceedings. Download and save your paper as PDF before uploading to CMT.",
+      "file": "paper-submission/templates/TAIIS2026-Springer-Word-Template.doc",
+      "linkLabel": "Download Word template (.doc)"
+    }
+  ],
+  "methodTitle": "Submission Method",
+  "methodIntro": "Prospective authors are invited to submit their full papers (maximum 10 pages, including all sections, figures, tables and references) via the Microsoft CMT submission system.",
+  "cmtAcknowledgment": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
+}

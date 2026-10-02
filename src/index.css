@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --color-primary-50: #eef4ff;
+  --color-primary-100: #dce8ff;
+  --color-primary-200: #b8d0ff;
+  --color-primary-300: #7aa3ff;
+  --color-primary-400: #4d7cff;
+  --color-primary-500: #2563ff;
+  --color-primary-600: #1a4fd9;
+  --color-primary-700: #143db3;
+  --color-primary-800: #123391;
+  --color-primary-900: #122d75;
+  --color-primary-950: #0a1847;
+  --color-accent-300: #67f0ff;
+  --color-accent-400: #22e8ff;
+  --color-accent-500: #00d4ff;
+  --color-accent-600: #00b8e6;
+  --color-bloom-300: #fda4c9;
+  --color-bloom-400: #fb7185;
+  --color-bloom-500: #f472b6;
+  --color-sun-300: #fde68a;
+  --color-sun-400: #facc15;
+  --color-sun-500: #eab308;
+  --color-lime-400: #4ade80;
+  --color-lime-500: #22c55e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased font-sans;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(37, 99, 255, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(0, 212, 255, 0.1), transparent),
+    radial-gradient(ellipse 50% 30% at 0% 50%, rgba(244, 114, 182, 0.06), transparent);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 85%);
+}
+
+.page-mesh {
+  background-image:
+    radial-gradient(at 20% 30%, rgba(37, 99, 255, 0.08) 0, transparent 50%),
+    radial-gradient(at 80% 10%, rgba(0, 212, 255, 0.08) 0, transparent 45%),
+    radial-gradient(at 90% 80%, rgba(250, 204, 21, 0.06) 0, transparent 40%);
+}
+
+.heading-gradient {
+  background-image: linear-gradient(
+    105deg,
+    var(--color-primary-700) 0%,
+    var(--color-primary-500) 35%,
+    var(--color-accent-500) 65%,
+    var(--color-bloom-500) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: heading-shimmer 8s ease-in-out infinite;
+}
+
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::after {
+  content: "";
+  position: absolute;
+  inset: -100% auto -100% -100%;
+  width: 40%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: skewX(-20deg);
+  animation: card-shine 6s ease-in-out infinite;
+}
+
+@keyframes heading-shimmer {
+  0%,
+  100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+@keyframes card-shine {
+  0%,
+  70%,
+  100% {
+    left: -100%;
+  }
+  85% {
+    left: 200%;
+  }
+}
+
+@keyframes divider-wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-divider-wave {
+  animation: divider-wave 18s linear infinite;
+}
+
+@keyframes partner-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes hero-new-badge-blink {
+  0%,
+  100% {
+    background-color: #ffffff;
+    color: var(--color-primary-950);
+  }
+  50% {
+    background-color: #dc2626;
+    color: #ffffff;
+  }
+}
+
+.animate-hero-new-badge {
+  animation: hero-new-badge-blink 1.15s ease-in-out infinite;
+}
+
+.partner-marquee-track {
+  animation: partner-marquee var(--marquee-duration, 28s) linear infinite;
+}
+
+.partner-marquee:hover .partner-marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heading-gradient,
+  .card-shine::after,
+  .animate-divider-wave,
+  .partner-marquee-track,
+  .animate-hero-new-badge {
+    animation: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+::selection {
+  @apply bg-accent-300/50 text-primary-950;
+}
+
+/* ---------------------------------------------------------------------------
+   Printing the registration invoice.
+
+   Print / Save as PDF should yield the invoice alone — no navigation, hero,
+   footer or buttons. Everything is hidden by default and only the ancestors of
+   .invoice-sheet are revealed, so the sheet keeps its normal styling while the
+   surrounding page falls away.
+   --------------------------------------------------------------------------- */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    background-image: none !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .invoice-sheet,
+  .invoice-sheet * {
+    visibility: visible;
+  }
+
+  .invoice-sheet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    /* Avoid splitting the document across pages where it can be helped. */
+    break-inside: avoid;
+  }
+
+  /* Explicitly suppressed even inside the sheet's subtree. */
+  .invoice-hide {
+    display: none !important;
+  }
+
+  /* Justified body text reads poorly in a narrow printed invoice. */
+  main p,
+  main li {
+    text-align: left;
+  }
+}
+
+/* Justify body text; headings and centered UI stay unchanged */
+main p,
+main li {
+  text-align: justify;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  text-align: inherit;
+}
+
+.text-center,
+.text-center p,
+.text-center li,
+.text-center span {
+  text-align: center;
+}
+
+main nav,
+main nav * {
+  text-align: inherit;
+}

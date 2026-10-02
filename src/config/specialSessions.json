@@ -1,0 +1,615 @@
+{
+  "title": "Special Sessions",
+  "intro": "TAIIS 2026 invites submissions to the following special sessions. Authors may submit papers aligned with the themes below through the conference submission system (Microsoft CMT).",
+  "focusLabel": "Focus:",
+  "sectionTitles": {
+    "aimAndScope": "Aim and Scope",
+    "topics": "List of Topics",
+    "committees": "Chair",
+    "submissionDates": "Submission Dates",
+    "submission": "Submission"
+  },
+  "sessions": [
+    {
+      "code": "SS1",
+      "title": "Special session on Trustworthy and Explainable AI for Intelligent IoT Systems",
+      "aimAndScope": [
+        "Intelligent IoT deployments are scaling into hyper-distributed edge–fog–cloud stacks that fuse multimodal sensing, closed-loop control, and autonomous analytics across smart industry, cities, and critical infrastructure. These systems promise real-time insight at massive scale, yet opaque machine learning pipelines, distribution shift on device fleets, and fragmented accountability across vendors create a widening trust gap between operators, regulators, and affected communities. During system design, practitioners struggle with heterogeneous hardware, constrained compute, federated data silos, and the cost of validating models under safety and privacy constraints. In operation, silent model degradation, adversarial manipulation of sensor streams, and non-interoperable monitoring tools leave stakeholders unable to explain or certify automated decisions. Meanwhile, global AI governance and sector-specific rules increasingly mandate traceability, human oversight, and evidence of fairness—requirements that many current IoT AI stacks cannot satisfy without fundamental advances in explainability and assurance.",
+        "Special session SS1 on Trustworthy and Explainable AI for Intelligent IoT Systems confronts these barriers by advancing explainable AI (XAI), uncertainty quantification, robustness testing, and assurance-oriented architectures tailored to resource-bounded IoT. The session solicits original research, industrial case studies, benchmarks, and standards-aligned frameworks spanning edge analytics, federated learning, operator-facing explanations, and certification pathways. It offers a premier interdisciplinary forum enabling researchers and practitioners in machine learning, embedded systems, and IoT engineering to co-design intelligent IoT that is transparent, auditable, and fit for regulated and safety-critical deployment."
+      ],
+      "topics": [
+        "Explainable AI (XAI) for streaming and edge IoT analytics",
+        "Trust metrics, assurance cases, and conformity evidence for IoT ML",
+        "Uncertainty calibration and out-of-distribution detection on sensor networks",
+        "Fairness, bias auditing, and ethical constraints in IoT AI",
+        "Human-in-the-loop validation and operator-centric explanations",
+        "Verifiable, auditable ML pipelines across edge–cloud IoT stacks",
+        "Trustworthy federated and split learning on device populations",
+        "Visualization and narrative interfaces for IoT control centers",
+        "Regulatory alignment (AI Act, medical devices, critical infrastructure)",
+        "Benchmarks, datasets, and reproducibility for trustworthy IoT intelligence"
+      ],
+      "chairs": [
+        {
+          "name": "Agung Mulyo Widodo",
+          "affiliation": "Esa Unggul University, Indonesia"
+        },
+        {
+          "name": "Wei-Cheng Shen",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "SS2",
+      "title": "Special session on AI-Driven Cybersecurity and Privacy for IoT and Edge Networks",
+      "focus": "AI-based intrusion detection, threat intelligence, privacy preservation, adversarial attacks, and secure IoT.",
+      "aimAndScope": [
+        "IoT and edge networks have evolved into sprawling, heterogeneous attack surfaces connecting billions of constrained devices, gateways, and OT systems with enterprise clouds and third-party services. Paradigms from smart manufacturing and medical IoT to smart homes generate continuous telemetry that fuels AI-driven defense, yet the same data flows expose sensitive behavior and become targets for poisoning, evasion, and model theft. At design time, security architects face scarce labeled attack data, conflicting protocol stacks, and the difficulty of embedding lightweight protection without violating latency and energy budgets. During deployment, inconsistent patching, weak device identity, and siloed SOCs leave networks vulnerable to lateral movement, ransomware, and cross-domain cascades. Privacy regulations and data-sovereignty mandates further require privacy-enhancing analytics that many edge platforms cannot yet support at scale. Adversarial ML against on-device detectors and the approaching post-quantum transition add additional layers of cryptographic and operational complexity for long-lived IoT assets.",
+        "Special session SS2 on AI-Driven Cybersecurity and Privacy for IoT and Edge Networks addresses these challenges through machine learning for intrusion detection and threat intelligence, zero-trust edge architectures, privacy-preserving aggregation, and defenses against adversarial attacks on IoT ML. The session welcomes theoretical contributions, systems prototypes, red-team studies, and field evaluations in industrial, healthcare, and urban IoT. It offers an internationally leading forum enabling cybersecurity researchers, privacy engineers, and IoT practitioners to converge on secure, resilient, and privacy-aware intelligent edge ecosystems."
+      ],
+      "topics": [
+        "AI-based intrusion detection and anomaly analytics for IoT/edge",
+        "Threat intelligence fusion, SOAR, and automated response",
+        "Differential privacy, secure aggregation, and federated security analytics",
+        "Adversarial attacks and robust defenses on edge ML models",
+        "Zero-trust networking and micro-segmentation for IoT",
+        "Device identity, attestation, and firmware integrity monitoring",
+        "Blockchain and distributed trust for IoT supply chains",
+        "Lightweight cryptography and post-quantum readiness at the edge",
+        "OT/IT converged security orchestration",
+        "Benchmarks, datasets, and red-team methodologies for IoT security"
+      ],
+      "chairs": [
+        {
+          "name": "Arcangelo Castiglione",
+          "affiliation": "University of Salerno, Fisciano, Salerno, Italy"
+        },
+        {
+          "name": "Peter Ardhianto",
+          "affiliation": "Soegijapranata Catholic University, Semarang 50234, Indonesia"
+        },
+        {
+          "name": "Wei-Cheng Shen",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "SS3",
+      "title": "Special session on Trustworthy AI for Smart Healthcare and Medical IoT",
+      "aimAndScope": [
+        "Smart healthcare and medical IoT ecosystems integrate wearables, in-hospital sensors, implantable devices, and remote monitoring platforms into continuous care pathways that generate high-velocity, multimodal physiological data. These systems enable early warning, personalized therapy, and operational efficiency, but they also introduce life-critical dependence on automated inference under strict privacy, safety, and equity requirements. Clinicians and regulators demand evidence of clinical validity, while patients expect confidentiality across fragmented EHR, device, and cloud vendors. Design teams confront interoperability gaps (HL7/FHIR vs. proprietary streams), small and biased cohorts, and the cost of prospective validation. In live care, alert fatigue, silent sensor drift, and unexplainable model outputs erode clinician trust and can exacerbate disparities. Cyber incidents targeting connected medical devices and ransomware against hospitals further demonstrate that trustworthy AI must be co-engineered with device security, auditability, and human factors—not treated as an afterthought.",
+        "Special session SS3 on Trustworthy AI for Smart Healthcare and Medical IoT focuses on reliable, explainable, and regulation-aware AI for clinical decision support, digital therapeutics, and connected care infrastructure. The session invites contributions on validated ML, medical IoT security, privacy-preserving learning on health records, digital twins for precision medicine, and equitable deployment. It offers a premier interdisciplinary forum enabling AI researchers, biomedical engineers, clinicians, and health informaticists to advance medical IoT intelligence that is safe, transparent, and fit for real-world care delivery."
+      ],
+      "topics": [
+        "Trustworthy ML for diagnosis, prognosis, and clinical triage",
+        "Medical IoT device security, patching, and data integrity",
+        "Explainable AI for clinical decision support systems",
+        "Privacy-preserving learning on EHR and multimodal health data",
+        "Remote patient monitoring, alerting, and closed-loop care",
+        "Digital twins and in-silico models for personalized medicine",
+        "Regulatory pathways, clinical validation, and quality management",
+        "Bias, fairness, and health equity in medical AI",
+        "Interoperability (FHIR, HL7) and IoT–EHR integration",
+        "Human factors and clinician adoption of AI-assisted workflows"
+      ],
+      "chairs": [
+        {
+          "name": "Priyanka Chaurasia",
+          "affiliation": "University of Ulster, UK"
+        },
+        {
+          "name": "Chi-Wen Lung",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        },
+        {
+          "name": "Yori Pusparani",
+          "affiliation": "Department of Visual Communication Design, Budi Luhur University, Jakarta 12260, Indonesia"
+        }
+      ]
+    },
+    {
+      "code": "SS4",
+      "title": "Special session on Generative AI and Large Language Models for IoT and Cyber-Physical Systems",
+      "aimAndScope": [
+        "Generative AI and large language models are rapidly entering cyber-physical and IoT lifecycles—from natural-language commissioning of device fleets to automated synthesis of control policies, test scenarios, and maintenance workflows across factories, buildings, and vehicles. Multimodal foundation models promise to unify logs, images, time series, and SCADA events, yet grounding generative outputs in physical state remains fragile: hallucinations, stale context, and prompt injection can propagate into unsafe actuation or incorrect operational decisions. Edge and embedded constraints limit model size and complicate secure update paths, while proprietary IoT APIs fragment tool-use for agentic systems. Design teams must balance productivity gains against verification burden, latency, and energy costs of inference at scale. In production, inconsistent telemetry quality, missing digital thread metadata, and weak access control around LLM copilots create new attack surfaces alongside traditional CPS threats. Organizations therefore need rigorous methods to evaluate, constrain, and monitor GenAI within closed-loop physical systems.",
+        "Special session SS4 on Generative AI and Large Language Models for IoT and Cyber-Physical Systems explores foundation models, retrieval-augmented grounding on sensor and log corpora, agentic orchestration, synthetic data for simulation, and secure edge deployment of GenAI. The session welcomes architectures, benchmarks, industrial copilots, and safety cases for LLM-enabled CPS operations. It offers an internationally leading forum enabling GenAI researchers, IoT platform engineers, and CPS safety specialists to co-design reliable, auditable generative intelligence for connected physical worlds."
+      ],
+      "topics": [
+        "LLMs and multimodal foundation models for IoT/CPS operations",
+        "Retrieval-augmented generation (RAG) over telemetry, logs, and twins",
+        "Synthetic data and scenario generation for IoT simulation",
+        "Agentic AI, tool-use, and API grounding for device platforms",
+        "Code, policy, and workflow generation for IoT automation",
+        "Hallucination control, factuality, and physics-aware grounding",
+        "Edge-efficient fine-tuning, distillation, and model compression",
+        "Security, prompt injection, and guardrails for IoT copilots",
+        "Human–AI collaboration in maintenance and control rooms",
+        "Evaluation benchmarks and safety cases for GenAI in CPS"
+      ],
+      "chairs": [
+        {
+          "name": "Chi-Wen Lung",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        },
+        {
+          "name": "Sudhakar Kumar",
+          "affiliation": "CCET, Panjab University, Chandigarh, India"
+        },
+        {
+          "name": "Gilang Titah Ramadhan",
+          "affiliation": "Tiga Serangkai University, Surakarta 57149, Indonesia"
+        }
+      ]
+    },
+    {
+      "code": "SS5",
+      "title": "Special session on AI Governance, Risk Management and Responsible Technology Adoption",
+      "aimAndScope": [
+        "Enterprises and public agencies are deploying AI and IoT at scale across supply chains, workplaces, and citizen services, creating portfolios of models, devices, and third-party algorithms whose combined risk is difficult to inventory or govern. Capabilities such as predictive maintenance, autonomous monitoring, and generative assistants deliver efficiency, yet opaque vendor models, cross-border data flows, and automated decisions amplify legal, reputational, and societal harms when controls lag deployment. During adoption, organizations struggle with inconsistent risk taxonomies, immature model documentation, and siloed IT/OT/AI teams. In operation, incident response for AI failures, drift, and data breaches lacks playbooks comparable to traditional cybersecurity. Evolving regulations—AI acts, sector rules, and data-sovereignty regimes—require demonstrable conformity, impact assessment, and human oversight mechanisms that many IoT-AI programs have not institutionalized. Without integrated governance, responsible technology adoption stalls or becomes performative rather than measurable.",
+        "Special session SS5 on AI Governance, Risk Management and Responsible Technology Adoption examines frameworks, tooling, and organizational practices for lifecycle governance of intelligent IoT systems. The session invites research and practice papers on risk management (e.g., NIST AI RMF, ISO/IEC approaches), audit trails, third-party AI supply chains, transparency reporting, red teaming, and conformity evaluation. It offers a premier interdisciplinary forum enabling technologists, legal and policy scholars, risk officers, and business leaders to align AI–IoT innovation with accountable, sustainable adoption."
+      ],
+      "topics": [
+        "AI governance operating models and accountability structures",
+        "Risk management frameworks and quantitative AI risk assessment",
+        "Model documentation, lineage, and inventory for IoT-AI portfolios",
+        "Third-party AI, IoT vendor risk, and contractual assurance",
+        "Impact assessment, conformity evaluation, and audit readiness",
+        "Responsible AI principles, maturity models, and KPIs",
+        "Ethics review, red teaming, and oversight mechanisms",
+        "Transparency, disclosure, and stakeholder engagement",
+        "Cross-border compliance and data-sovereignty constraints",
+        "Training, change management, and board-level AI literacy"
+      ],
+      "chairs": [
+        {
+          "name": "Vijayan Sugumaran",
+          "affiliation": "Distinguished Professor of Management Information Systems, School of Business Administration, Oakland University, USA"
+        },
+        {
+          "name": "Ardha Ardea Prisilla",
+          "affiliation": "Sekolah Tinggi Desain LaSalle University, Jakarta, Jakarta 10220, Indonesia"
+        },
+        {
+          "name": "Chi-Wen Lung",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "SS6",
+      "title": "Special session on AI, IoT and Innovation Management for Sustainable Digital Enterprises",
+      "aimAndScope": [
+        "Digital enterprises are restructuring around AI and IoT platforms that connect products, factories, logistics, and customer experiences into continuous feedback loops for innovation and sustainability reporting. Intelligent sensing and analytics enable circular economy initiatives, energy optimization, and data-driven business models, but they also intensify complexity: fragmented IoT estates, overlapping AI pilots, and unclear ownership of ESG metrics across business units. Innovation managers face portfolio overload, uncertain ROI from AI–IoT investments, and misalignment between R&D, IT, and operations. Implementation reveals integration debt with ERP, CRM, and legacy OT, while greenwashing risks emerge when IoT-derived sustainability claims lack auditable methodology. Competitive pressure and regulatory disclosure requirements (climate, supply chain due diligence) demand that innovation management embed trustworthiness, interoperability, and measurable environmental outcomes—not merely deploy disconnected proofs of concept.",
+        "Special session SS6 on AI, IoT and Innovation Management for Sustainable Digital Enterprises explores how intelligent technologies enable sustainable business models, innovation pipelines, and digital maturity in modern organizations. The session welcomes empirical studies, action research, strategic frameworks, and case analyses linking IoT data products, AI analytics, ESG measurement, and innovation governance. It offers an internationally leading forum enabling management scholars, CIOs, sustainability officers, and engineering leaders to co-design AI–IoT innovation that is economically viable, environmentally responsible, and organizationally sustainable."
+      ],
+      "topics": [
+        "AI–IoT strategy, roadmaps, and digital transformation governance",
+        "Innovation management, open innovation, and corporate venturing with IoT",
+        "ESG analytics, carbon accounting, and auditable sustainability metrics",
+        "Circular economy and green operations enabled by intelligent sensing",
+        "Digital twins for enterprise planning and product–service systems",
+        "Platform ecosystems, IoT marketplaces, and value-network design",
+        "ROI, TCO, and portfolio management for AI–IoT investments",
+        "Organizational culture, skills, and change for intelligent enterprises",
+        "Supply chain transparency, resilience, and risk analytics",
+        "Industry case studies of sustainable digital enterprise innovation"
+      ],
+      "chairs": [
+        {
+          "name": "Vincent Shin-Hung Pan",
+          "affiliation": "Chaoyang University of Technology, Taiwan"
+        },
+        {
+          "name": "Fahni Haris",
+          "affiliation": "Universitas Muhammadiyah Yogyakarta, Yogyakarta 55183, Indonesia"
+        },
+        {
+          "name": "Gilang Titah Ramadhan",
+          "affiliation": "Tiga Serangkai University, Surakarta 57149, Indonesia"
+        }
+      ]
+    },
+    {
+      "code": "SS7",
+      "title": "Digital Twins, AI and IoT for Cyber-Physical Systems and Smart Infrastructure",
+      "aimAndScope": [
+        "Cyber-physical systems and smart infrastructure— spanning energy grids, transport networks, water utilities, and smart buildings—are increasingly instrumented with IoT sensing and mirrored by digital twins that simulate, predict, and optimize physical assets in near real time. These twins promise reduced downtime, safer operation, and better capital planning, yet constructing and maintaining faithful virtual models across heterogeneous assets, vendors, and legacy SCADA remains profoundly difficult. Engineers contend with model drift, incomplete BIM/GIS integration, bandwidth limits for high-frequency sync, and conflicting time bases between field devices and cloud analytics. When twins drive automated control or maintenance dispatch, erroneous synchronization or corrupted telemetry can propagate into unsafe recommendations. Security and data integrity across twin pipelines introduce additional attack vectors, while interoperability standards (ISO 23247, OPC UA, MQTT) are unevenly adopted. AI layers atop twins add opacity unless explainability and validation are built into operational workflows from the outset.",
+        "Special session SS7 on Digital Twins, AI and IoT for Cyber-Physical Systems and Smart Infrastructure addresses twin construction, real-time synchronization, hybrid physics–data modeling, AI-driven simulation, and trustworthy decision support for critical infrastructure. The session invites architectures, algorithms, deployments, and security analyses across smart city, utility, and industrial domains. It offers a premier interdisciplinary forum enabling CPS researchers, civil and infrastructure engineers, and IoT architects to advance resilient, intelligent twins for society-scale systems."
+      ],
+      "topics": [
+        "Digital twin reference architectures for CPS and smart infrastructure",
+        "Real-time synchronization and edge–cloud twin pipelines",
+        "Hybrid physics-informed and data-driven twin modeling",
+        "AI-driven forecasting, optimization, and control support",
+        "Security, provenance, and integrity of twin data spaces",
+        "Smart grids, mobility, water, and building infrastructure twins",
+        "BIM/GIS/IoT integration and geospatial digital threads",
+        "Predictive maintenance and asset lifecycle analytics via twins",
+        "Interoperability (ISO 23247, OPC UA, MQTT, oneM2M)",
+        "Operations-center UX and human oversight of twin-driven decisions"
+      ],
+      "chairs": [
+        {
+          "name": "Brij B. Gupta",
+          "affiliation": "Department of Computer Science and Information Engineering, Asia University, Taichung, Taiwan"
+        },
+        {
+          "name": "Mamta",
+          "affiliation": "PEC University, Chandigarh, India"
+        },
+        {
+          "name": "Wei-Cheng Shen",
+          "affiliation": "Department of Creative Product Design, Asia University, Taichung 413305, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "SS8",
+      "title": "Special session on AI, IoT and Emerging Technologies for Interdisciplinary Research and Innovation",
+      "aimAndScope": [
+        "Breakthroughs in intelligent systems increasingly arise at the confluence of AI, IoT, and emerging modalities—advanced sensing, robotics, immersive interfaces, novel RF and satellite connectivity, and quantum-ready components—rather than within a single discipline. These convergent stacks enable new forms of citizen-scale sensing, autonomous mobility, and immersive operation centers, but they also fragment research communities, duplicate infrastructure, and obscure shared ethical and safety obligations. Teams face mismatched publication norms, incompatible toolchains, and funding silos that slow translation from prototype to trustworthy deployment. Cross-domain projects struggle to evaluate reproducibility when hardware, firmware, and policy constraints differ radically across partners. Societal implications—labor displacement, environmental footprint of edge AI, and equitable access to intelligent services—require input from social sciences and design, yet such perspectives are often underrepresented in technically focused venues. Without deliberate interdisciplinary integration, emerging technology waves risk repeating fragmentation and trust deficits seen in earlier IoT rollouts.",
+        "Special session SS8 on AI, IoT and Emerging Technologies for Interdisciplinary Research and Innovation provides a cross-cutting venue for convergent research that advances the TAIIS vision beyond single-track silos. The session welcomes methodological bridges, novel application domains, education and workforce initiatives, vision papers, and early prototypes combining AI, IoT, and emerging tech. It offers an internationally leading forum enabling engineers, computer scientists, social scientists, designers, and policymakers to jointly shape responsible, innovative intelligent ecosystems."
+      ],
+      "topics": [
+        "Interdisciplinary methods and team-science for AI–IoT research",
+        "Emerging sensing, actuation, and connectivity technologies",
+        "Robotics, drones, and autonomous systems on IoT backbones",
+        "AR/VR, digital twins, and immersive IoT operation environments",
+        "Citizen science, participatory sensing, and community innovation",
+        "Quantum-ready, neuromorphic, and unconventional compute for IoT",
+        "Education, curricula, and workforce development for convergent tech",
+        "Societal impact, ethics, and future-of-work in intelligent systems",
+        "Open science, reproducibility, and shared research infrastructure",
+        "Vision and position papers on next-generation intelligent ecosystems"
+      ],
+      "chairs": [
+        {
+          "name": "Ben-Yi Liau",
+          "affiliation": "Feng Chia University, Taichung, Taiwan"
+        },
+        {
+          "name": "Mosiur Rahaman",
+          "affiliation": "King Mongkut’s University of Technology Thonburi, Bangkok, Thailand"
+        }
+      ]
+    },
+    {
+      "code": "SS9",
+      "title": "Trustworthy and Secure AI for 6G, IoT, and Intelligent Networks",
+      "aimAndScope": [
+        "AI-driven 6G, IoT and intelligent networks connect massive numbers of heterogeneous devices, edge–cloud platforms and autonomous decision-making for smart cities, connected vehicles, industrial automation and critical infrastructure, and bring new risks from adversarial attacks, compromised devices, model manipulation and privacy leakage.",
+        "Special session SS9 on Trustworthy and Secure AI for 6G, IoT, and Intelligent Networks invites original research, practical implementations, industrial case studies, datasets, benchmarks and standards-oriented frameworks, with emphasis on federated learning, explainable and robust AI, zero-trust architectures, blockchain-enabled trust management, zero-knowledge proofs, secure edge intelligence, agentic and multi-agent AI, Open RAN security and quantum-safe approaches."
+      ],
+      "topics": [
+        "Trustworthy and Secure AI for 6G, IoT, and Intelligent Networks",
+        "AI-Driven Cybersecurity and Privacy for Intelligent IoT Systems",
+        "Agentic AI and Multi-Agent Systems for Trustworthy Intelligent IoT",
+        "Privacy-Preserving AI and Zero-Knowledge Technologies for Secure Intelligent Systems",
+        "Trustworthy AI for 5G/6G and Open RAN Networks",
+        "Secure and Intelligent AI-Enabled Smart Cities and Sustainable IoT"
+      ],
+      "chairs": [
+        {
+          "name": "P. Vijayakumar",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai"
+        },
+        {
+          "name": "N. Deepa",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai"
+        },
+        {
+          "name": "Sivapriya",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai"
+        }
+      ]
+    },
+    {
+      "code": "SS10",
+      "title": "Special Session on Secure Edge AI for Next-Generation IoT Devices and Intelligent Networks",
+      "aimAndScope": [
+        "Due to the increased proliferation of Internet of Things (IoT) devices, edge computing, and intelligent networks, there is growing need for secure, reliable, and low-latency artificial intelligence (AI) at the edge. Conventional cloud-centric approaches face communication delay, limited bandwidth, security and privacy issues, and scalability limits, motivating Edge AI for timely, trustworthy decision making in connected environments.",
+        "This special session provides a platform for academicians, researchers, industry professionals, and practitioners to share developments in Secure Edge AI for next-generation IoT devices and intelligent networks, emphasizing AI, ML, DL, and edge computing to create intelligent, adaptive, and trustworthy IoT ecosystems. Topics include secure AI on the edge, resource-aware intelligence, privacy-aware learning, federated AI, autonomous security mechanisms, and efficient edge–cloud collaboration. The session invites original research, architectures, algorithms, frameworks, datasets, experimental evaluations, and real-world applications that enhance security, reliability, energy efficiency, scalability, and trustworthiness across IoT, cyber-physical systems, smart cities, industrial automation, healthcare, and intelligent networks."
+      ],
+      "topics": [
+        "Secure Edge AI Architectures for Next-Generation IoT Devices and Intelligent Networks",
+        "Lightweight AI, TinyML, and Resource-Efficient Machine Learning for IoT Edge Devices",
+        "AI-Based Security Monitoring, Intrusion Detection, and Anomaly Detection at the Edge",
+        "Federated Learning, Privacy-Preserving AI, and Distributed Intelligence for Edge IoT",
+        "Secure Edge Computing for Industrial IoT, Smart Cities, Healthcare, and Cyber-Physical Systems",
+        "Trustworthy, Explainable, and Robust AI for Edge Intelligence Applications",
+        "AI-Driven Resource Management, Computation Offloading, and Energy Optimization in Edge Networks",
+        "Zero Trust Security, Adversarial Resilience, and Secure Communication for Edge-IoT Systems"
+      ],
+      "chairs": [
+        {
+          "name": "Sunil K. Singh",
+          "affiliation": "CCET, Panjab University, Chandigarh, India"
+        },
+        {
+          "name": "Sudhakar Kumar",
+          "affiliation": "CCET, Panjab University, Chandigarh, India"
+        }
+      ]
+    },
+    {
+      "code": "SS11",
+      "title": "Special Session on Human-Centered and Explainable AI for Personalized Adaptive Systems",
+      "aimAndScope": [
+        "Human-centered and explainable AI for personalized adaptive systems emphasizes intelligent personalization where systems dynamically respond to individual users by detecting needs, context, and preferences through understanding human behavior. The session spans XAI, generative AI, multimodal intelligence, AI agents, federated learning, edge computing, and digital twins to enable rights-aware, transparent, trustworthy, and responsible adaptive systems, with cross-domain applications in healthcare, education, smart cities, cybersecurity, autonomous systems, IoT, and Industry 5.0.",
+        "This session is a forum for researchers, academicians, and industry practitioners to present advanced methodologies, intelligent architectures, and real-world applications of human-centered and explainable AI for personalized adaptive systems. It advocates interdisciplinary research combining XAI, generative AI, multimodal learning, AI agents, federated learning, edge intelligence, and digital twins with human–AI collaboration, investigating theoretical, methodological, and applied aspects of personalized, adaptive, explainable systems that learn with transparency, privacy, fairness, safety, and human control."
+      ],
+      "topics": [
+        "Adaptive Edge AI for Smart Healthcare, Autonomous Systems, and IoT",
+        "Neuro-Symbolic and Responsible AI for Multidomain Decision Support",
+        "Human-AI Collaboration for Personalized Smart Cities and Industry 5.0",
+        "Digital Twins and Explainable AI for Personalized Adaptive Systems",
+        "Explainable AI Agents for Cybersecurity and Smart Environments",
+        "Explainable AI for Precision Agriculture and Environmental Sustainability",
+        "Emotion-Aware and Explainable AI for Education and Mental-Wellness Applications",
+        "Human-Centered AI for Autonomous Vehicles",
+        "AI Agents for Personalized Healthcare, Education, and Smart-City Services",
+        "Quantum-Assisted Explainable AI for Smart Healthcare and IoT"
+      ],
+      "chairs": [
+        {
+          "name": "Prithi Samuel",
+          "affiliation": "SRM Institute of Science and Technology, Kattankulathur Campus, Chennai, India"
+        },
+        {
+          "name": "Balamurugan Balusamy",
+          "affiliation": "Manipal Academy of Higher Education, Dubai Campus, Dubai, UAE"
+        },
+        {
+          "name": "Archana Pattabhi",
+          "affiliation": "Enterprise Data, AI, Technology Executive, New York, USA"
+        }
+      ]
+    },
+    {
+      "code": "SS12",
+      "title": "Special session on Agentic AI and Autonomous Decision-Making for Trustworthy IoT Systems",
+      "aimAndScope": [
+        "Agentic AI enables IoT systems to move beyond monitoring and prediction toward autonomous planning, tool use, and device control. These capabilities can improve responsiveness in connected environments but introduce risks when agents take incorrect, unauthorized, or adversarially influenced actions. This special session focuses on trustworthy autonomous decision-making in IoT and cyber-physical systems, including safe action execution, multi-agent coordination, permission boundaries, and human oversight. It invites original research on agent architectures, security and verification of agent-initiated actions, resource-efficient edge deployment, and experimental evaluation. The session aims to advance reliable, transparent, and accountable autonomous operation in real-world connected systems.",
+        "Special session SS12 on Agentic AI and Autonomous Decision-Making for Trustworthy IoT Systems offers an international forum for researchers, industry practitioners, and standards-oriented developers to share architectures, assurance methods, benchmarks, and field studies at the intersection of agentic AI and intelligent IoT. It welcomes submissions that address safe autonomy, explainability, and governance of agent-driven actions across edge, fog, and cloud deployments aligned with TAIIS 2026."
+      ],
+      "topics": [
+        "Agentic AI architectures and multi-agent coordination for IoT and edge systems",
+        "Safe planning, autonomous decision-making, and human oversight",
+        "Secure agent–device interaction, tool use, and permission boundaries",
+        "Explainability, verification, and benchmarking of agent-initiated actions",
+        "Resource-efficient agent deployment and trustworthy cyber-physical IoT applications",
+        "Ethical, legal, and accountability issues in autonomous IoT decision-making"
+      ],
+      "chairs": [
+        {
+          "name": "Pooja Chaudhary",
+          "affiliation": "Vellore Institute of Technology (VIT), Vellore, India"
+        },
+        {
+          "name": "Shin-Hung Pan",
+          "affiliation": "Chaoyang University of Technology, Taiwan"
+        }
+      ]
+    },
+    {
+      "code": "SS13",
+      "title": "Special session on Agentic AI in Healthcare: Safe, Accountable Clinical Agents over Intelligent Medical IoT",
+      "aimAndScope": [
+        "For most of the past decade, AI in medicine has played the role of an advisor. A model reads a chest X-ray or scores a patient's sepsis risk, and a clinician decides what happens next. That arrangement is now changing. Agents built on large language and multimodal models can read a patient's record, follow a stream of readings from a wearable or bedside monitor, decide that something needs attention, and then act on it: order a test, message the care team, revise a follow-up plan, or pass the task to another agent. Hospitals have begun using such systems, though mostly for documentation, scheduling and other paperwork, where a mistake is an inconvenience rather than a danger. Bringing them closer to the bedside is a different matter. Consider an agent watching over a diabetic patient at home through the night. If the glucose sensor drops out for twenty minutes, or reports a value that is physically implausible, what should the agent do, and how would anyone establish afterwards why it did it? Questions of this kind expose gaps that accuracy benchmarks simply do not measure. We still have no agreed way to decide how much autonomy a clinical agent should be given, to check its plans before they are carried out, to protect it from instructions hidden in clinical notes or device data, or to trace responsibility when several agents and people share a decision. Most published evaluations also test agents on self-contained questions, rather than on the long and untidy tasks of real care, where one small error quietly leads to the next.",
+        "Safe, Accountable Clinical Agents over Intelligent Medical IoT is intended as a meeting point for researchers approaching these problems from different directions. Our interest lies in the agent, the connected devices it depends on and the clinicians it works alongside, considered together rather than one at a time. The session welcomes new methods and architectures, formal and empirical safety studies, security analyses, simulation environments and benchmarks, and reports from real deployments, including candid accounts of what did not work. We particularly encourage papers that test agents on multi-step tasks with realistic sensor data, that report how agents fail and recover alongside their headline performance, and that release code or data so that others can build on the results. By bringing together computer scientists, IoT and systems engineers, clinicians, security researchers and those working in health policy, the session hopes to ensure that clinical agents are shaped by the people who will build them, use them and ultimately be answerable for them."
+      ],
+      "topics": [
+        "Deciding how much autonomy a clinical agent should have, and when it must defer to a clinician",
+        "Agents that act on data from wearables, bedside monitors, home sensors and implantable devices",
+        "Coping with missing, delayed, conflicting or implausible sensor readings",
+        "Uncertainty estimation, abstention and timely escalation to the care team",
+        "Edge and cloud designs that keep agents safe when connectivity fails",
+        "Coordination among multiple agents, and between agents and clinical staff",
+        "Prompt injection, tool misuse and other attacks on healthcare agents",
+        "Protecting patient information held in agent memory; federated and on-device agents",
+        "Audit trails and methods for reconstructing why an agent took a particular action",
+        "Simulation environments, patient digital twins and benchmarks for testing agents before deployment",
+        "Clinical pilot studies, failure analyses and lessons from real-world use",
+        "Agentic systems for rural and resource-limited healthcare settings"
+      ],
+      "chairs": [
+        {
+          "name": "Pramod Kumar",
+          "affiliation": "Swami Rama Himalayan University, Dehradun, India"
+        },
+        {
+          "name": "Anupama Mishra",
+          "affiliation": "Swami Rama Himalayan University, Dehradun, India"
+        },
+        {
+          "name": "Varsha Mittal",
+          "affiliation": "Graphic Era University, India"
+        }
+      ]
+    },
+    {
+      "code": "SS14",
+      "title": "Special session on Trustworthy Autonomous AI Agents and Multi-Agent IoT Systems",
+      "aimAndScope": [
+        "Trustworthy autonomous AI agents and multi-agent IoT systems emphasize intelligent ecosystems where AI agents can independently perceive environments, reason over information, plan tasks, collaborate with other agents, and execute actions through connected IoT devices and cyber-physical systems. The session focuses on agentic AI, multi-agent intelligence, autonomous decision-making, large language model-based agents, edge intelligence, federated learning, digital twins, and trustworthy AI to develop reliable, transparent, secure, and accountable autonomous IoT systems.",
+        "This session provides a forum for researchers, academicians, and industry practitioners to present advanced methodologies, intelligent architectures, and real-world applications of trustworthy autonomous AI agents and multi-agent IoT systems. It encourages interdisciplinary research integrating agentic AI, multi-agent coordination, foundation models, explainable AI, edge-cloud intelligence, digital twins, and human–AI collaboration, addressing theoretical, methodological, and practical challenges in autonomous systems while emphasizing trust, safety, robustness, privacy, reliability, and human oversight."
+      ],
+      "topics": [
+        "Trustworthy agentic AI for intelligent IoT and cyber-physical systems",
+        "Multi-agent AI for autonomous decision-making and IoT coordination",
+        "Explainable and responsible AI agents for autonomous systems",
+        "AI agents for smart healthcare, smart cities, and industrial IoT",
+        "Digital twins and autonomous AI agents for cyber-physical systems",
+        "Secure, privacy-preserving, and reliable multi-agent IoT systems"
+      ],
+      "chairs": [
+        {
+          "name": "P. Selvaraj",
+          "affiliation": "Department of Computing Technologies, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "Divya Mohan",
+          "affiliation": "Department of Computing Technologies, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "U. Karthikeyan",
+          "affiliation": "Department of Computing Technologies, SRMIST, Kattankulathur, Chennai, India"
+        }
+      ]
+    },
+    {
+      "code": "SS15",
+      "title": "Special session on Zero-Trust Architecture (ZTA) and AI-Driven Cyber Defense",
+      "aimAndScope": [
+        "The rapid adoption of cloud computing, edge intelligence, IoT, 5G/6G networks, and distributed digital infrastructures has significantly expanded the cyber-attack surface of modern organizations. Traditional perimeter-based security models are increasingly inadequate for protecting highly distributed and dynamic environments. Zero-Trust Architecture (ZTA) adopts the principle of \"never trust, always verify\", continuously validating users, devices, applications, workloads, and network interactions before granting access.",
+        "This special session focuses on Zero-Trust Architecture (ZTA) and AI-driven cyber defense. Authors are invited to submit original research, practical implementations, industrial case studies, datasets, benchmarks, and standards-oriented frameworks addressing intelligent, adaptive, and resilient cybersecurity. The session emphasizes the integration of AI/ML with Zero-Trust principles to enable continuous authentication, behavioral analytics, threat detection, automated incident response, identity-centric security, micro-segmentation, risk-aware access control, and autonomous cyber defense across enterprise, cloud, edge, IoT, and 5G/6G environments."
+      ],
+      "topics": [
+        "Zero-Trust Architecture (ZTA) and AI-driven cyber defense",
+        "AI/ML-based threat detection and automated incident response",
+        "Identity-centric security and identity and access management (IAM)",
+        "AI-driven behavioral analytics and user/entity behavior analytics (UEBA)",
+        "Zero-Trust security for cloud, edge, IoT, and 5G/6G networks",
+        "AI-based anomaly detection and adaptive security policies",
+        "Autonomous and agentic AI for cyber defense",
+        "Adversarial machine learning and robust AI for cybersecurity",
+        "Privacy-preserving AI for Zero-Trust security",
+        "Threat intelligence, security analytics, and cyber situational awareness",
+        "AI-enabled malware, intrusion, and ransomware detection",
+        "Secure Access Service Edge (SASE) and Zero-Trust Network Access (ZTNA)",
+        "Blockchain and distributed-ledger technologies for Zero-Trust trust management",
+        "Explainable and trustworthy AI for security decision-making",
+        "Zero-Trust security for critical infrastructure and industrial IoT",
+        "Security automation, orchestration, and autonomous cyber defense",
+        "Standards, frameworks, datasets, and benchmarks for Zero-Trust cybersecurity"
+      ],
+      "chairs": [
+        {
+          "name": "P. Vijayakumar",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "P. Balaji Srikaanth",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "L. Jegatha Deborah",
+          "affiliation": "Department of Computer Science and Engineering, University College of Engineering, Tindivanam, Melpakkam, India"
+        }
+      ]
+    },
+    {
+      "code": "SS16",
+      "title": "Special session on Trustworthy Human-Centric AI for Gait, Vision and Intelligent Healthcare IoT",
+      "aimAndScope": [
+        "Human-centric AI is increasingly enabling intelligent systems for gait analysis, computer vision, healthcare monitoring, elderly mobility assessment and assistive applications. However, the deployment of AI in healthcare and human-centred IoT environments requires trustworthy, explainable, robust, privacy-aware and resource-efficient solutions that can operate reliably across diverse real-world conditions.",
+        "Special session SS16 on Trustworthy Human-Centric AI for Gait, Vision and Intelligent Healthcare IoT invites original research, practical implementations, healthcare and industrial case studies, datasets, benchmarks and trustworthy AI frameworks, with emphasis on gait recognition and analysis, human-centred computer vision, explainable and robust AI, lightweight deep learning, multimodal AI, privacy-preserving healthcare intelligence, edge AI and IoT-enabled intelligent healthcare systems."
+      ],
+      "topics": [
+        "Trustworthy human-centric AI for gait, vision and intelligent healthcare IoT",
+        "AI-based gait recognition, gait analysis and human mobility assessment",
+        "Explainable, robust and uncertainty-aware AI for human-centred vision",
+        "Lightweight deep learning, vision transformers and edge AI for healthcare IoT",
+        "Privacy-preserving and secure AI for intelligent healthcare and assistive systems",
+        "Multimodal and personalized AI for healthcare monitoring, mobility and wellbeing"
+      ],
+      "chairs": [
+        {
+          "name": "Nithyakani P",
+          "affiliation": "Department of Computing Technologies, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "Ferni Ukrit M",
+          "affiliation": "Department of Computational Intelligence, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "L. Jayakumar",
+          "affiliation": "Department of Computer Science and Engineering, National Institute of Technology (NIT) Agartala, Tripura, India"
+        },
+        {
+          "name": "P. Vijayakumar",
+          "affiliation": "Department of Networking and Communications, SRMIST, Kattankulathur, Chennai, India"
+        }
+      ]
+    },
+    {
+      "code": "SS17",
+      "title": "Special session on AI-Driven Multimodal Intelligence and Foundation Models for Next-Generation IoT Applications",
+      "aimAndScope": [
+        "The rapid growth of IoT has resulted in the generation of heterogeneous and continuously evolving data from sensors, images, video, audio, text, and contextual information. Conventional AI approaches often process these data sources independently, limiting their ability to capture complex relationships and support intelligent decision-making. This special session focuses on multimodal intelligence and foundation models that can integrate, understand, and reason across multiple data modalities for next-generation IoT applications.",
+        "This special session aims to provide a multidisciplinary forum for researchers, academicians, industry professionals, and practitioners to explore next-generation artificial intelligence paradigms for intelligent Internet of Things (IoT) systems, with emphasis on the convergence of multimodal artificial intelligence, foundation models, large multimodal models, generative AI, intelligent agents, and heterogeneous sensor intelligence. The session welcomes theoretical contributions, novel architectures, algorithms, real-world applications, datasets, case studies, and experimental studies demonstrating how multimodal and foundation-model-based intelligence can transform IoT systems across smart cities, healthcare, agriculture, transportation, industrial automation, robotics, and other emerging application domains."
+      ],
+      "topics": [
+        "Multimodal AI for IoT and cyber-physical systems",
+        "Retrieval-Augmented Generation (RAG) for IoT applications",
+        "Multimodal intelligence for robotics and autonomous systems",
+        "Real-world deployment and industrial applications of foundation models",
+        "Vision-Language Models (VLMs) for intelligent IoT",
+        "Neuro-symbolic and knowledge-enhanced multimodal AI",
+        "Human–AI interaction in intelligent IoT",
+        "Transfer learning and adaptive multimodal learning"
+      ],
+      "chairs": [
+        {
+          "name": "Prithi Samuel",
+          "affiliation": "Department of Computational Intelligence, School of Computing, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "Beaulah Jeyavathana R",
+          "affiliation": "Department of Computational Intelligence, School of Computing, SRMIST, Kattankulathur, Chennai, India"
+        },
+        {
+          "name": "Deiva Preetha C.A.S",
+          "affiliation": "Department of Computational Intelligence, School of Computing, SRMIST, Kattankulathur, Chennai, India"
+        }
+      ]
+    },
+    {
+      "code": "SS18",
+      "title": "Special session on AI-Enabled Intelligent Supply Chains: Building Resilient, Sustainable, and Autonomous Decision-Making Systems",
+      "aimAndScope": [
+        "Rapid advances in artificial intelligence, Internet of Things technologies, data analytics, and intelligent automation are transforming traditional supply chains into increasingly connected and data-driven ecosystems. Organizations are now using AI not only for forecasting and operational efficiency, but also for risk identification, supplier evaluation, logistics optimization, sustainability monitoring, and real-time decision-making. However, the transition toward intelligent and autonomous supply chains also creates challenges related to data integration, transparency, cybersecurity, trust, governance, and organizational readiness.",
+        "Special session SS18 on AI-Enabled Intelligent Supply Chains: Building Resilient, Sustainable, and Autonomous Decision-Making Systems aims to bring together researchers, practitioners, and policymakers working at the intersection of artificial intelligence, intelligent systems, and supply chain management. The session will provide a broad platform for discussing how AI-enabled technologies can improve supply-chain resilience, sustainability, visibility, agility, and operational performance while addressing the risks and managerial challenges associated with their adoption. Particular attention will be given to the integration of emerging technologies such as machine learning, generative AI, large language models, digital twins, Internet of Things, blockchain, intelligent optimization, predictive analytics, and autonomous decision-support systems across different stages of the supply chain. The session welcomes theoretical, empirical, computational, and application-oriented studies and encourages interdisciplinary research connecting technology, operations management, sustainability, and organizational decision-making. It will contribute an interdisciplinary forum for examining both the technological and managerial dimensions of intelligent supply chains, generating discussion on how AI can support more responsive, sustainable, transparent, and resilient supply-chain systems while identifying emerging research questions related to governance, implementation, and responsible AI adoption."
+      ],
+      "topics": [
+        "Artificial intelligence for supply-chain planning and decision-making",
+        "Machine learning for demand forecasting and inventory optimization",
+        "Generative AI and large language models in supply-chain management",
+        "AI-based supplier selection and supplier risk assessment",
+        "Intelligent procurement and sourcing systems",
+        "Predictive analytics for supply-chain disruption and risk management",
+        "AI-enabled resilient and agile supply chains",
+        "Sustainable and green supply chains supported by AI",
+        "Carbon-emission monitoring and Scope 3 supply-chain analytics",
+        "Digital twins for supply-chain simulation and optimization",
+        "Internet of Things and real-time supply-chain visibility",
+        "Blockchain and AI integration for supply-chain traceability",
+        "Smart logistics, transportation, and last-mile delivery",
+        "Predictive maintenance and intelligent manufacturing systems",
+        "Human-AI collaboration in supply-chain decision-making",
+        "Explainable and trustworthy AI for supply-chain applications",
+        "Cybersecurity and data governance in intelligent supply chains",
+        "Autonomous supply-chain systems and intelligent agents",
+        "Multi-criteria decision-making integrated with AI",
+        "AI adoption, organizational readiness, and digital transformation",
+        "Circular economy and AI-enabled closed-loop supply chains"
+      ],
+      "chairs": [
+        {
+          "name": "Vimal Kumar",
+          "affiliation": "Department of Information Management, Chaoyang University of Technology, Wufeng, Taichung 413310, Taiwan"
+        },
+        {
+          "name": "Sahilali Saiyed",
+          "affiliation": "Department of Business Administration, Chaoyang University of Technology, Wufeng, Taichung 413310, Taiwan"
+        },
+        {
+          "name": "Pratima Verma",
+          "affiliation": "Department of Strategic Management, Indian Institute of Management Kozhikode, Kozhikode-673570, India"
+        }
+      ]
+    }
+  ]
+}

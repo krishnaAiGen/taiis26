@@ -1,0 +1,69 @@
+{
+  "title": "Extended Journal Publication Opportunities",
+  "introParagraphs": [
+    "Selected high-quality papers from the International Conference on Trustworthy AI and Intelligent IoT Systems (TAIIS 2026) may be invited to submit substantially extended versions to the listed journals. All submissions must include significant new content and will undergo the respective journal's independent peer-review and editorial processes. An invitation does not guarantee acceptance or publication."
+  ],
+  "journals": [
+    {
+      "name": "Journal of Web Engineering",
+      "publisher": "River Publishers",
+      "indexing": "Scopus, EI, Web of Science",
+      "impactFactor": "1.6",
+      "homepageUrl": "https://journals.riverpublishers.com/index.php/JWE/",
+      "cover": "images/journal-opportunities/journal-of-web-engineering.png",
+      "coverAlt": "Journal of Web Engineering cover"
+    },
+    {
+      "name": "Innovation and Emerging Technologies",
+      "publisher": "World Scientific",
+      "indexing": "Scopus, Web of Science",
+      "impactFactor": "2.3",
+      "homepageUrl": "https://www.worldscientific.com/worldscinet/iet",
+      "cover": "images/journal-opportunities/iet-innovation-emerging-technologies.png",
+      "coverAlt": "Innovation and Emerging Technologies journal cover"
+    },
+    {
+      "name": "International Journal of Software Science and Computational Intelligence (IJSSCI)",
+      "publisher": "IGI Global",
+      "indexing": "Web of Science",
+      "impactFactor": "3.4",
+      "homepageUrl": "https://www.igi-global.com/journal/international-journal-software-science-computational-intelligence/1124",
+      "cover": "images/journal-opportunities/ijssci.png",
+      "coverAlt": "International Journal of Software Science and Computational Intelligence (IJSSCI) cover"
+    },
+    {
+      "name": "International Journal of High Performance Systems Architecture (IJHPSA)",
+      "publisher": "Inderscience",
+      "indexing": "Scopus, EI",
+      "homepageUrl": "https://www.inderscience.com/jhome.php?jcode=ijhpsa",
+      "cover": "images/journal-opportunities/ijhpsa.png",
+      "coverAlt": "International Journal of High Performance Systems Architecture (IJHPSA) cover"
+    },
+    {
+      "name": "International Journal of Intelligent Information Technologies",
+      "publisher": "IGI Global",
+      "indexing": "Scopus, EI, Web of Science",
+      "impactFactor": "1.7",
+      "homepageUrl": "https://www.igi-global.com/journal/international-journal-intelligent-information-technologies/1089",
+      "cover": "images/journal-opportunities/jiit.png",
+      "coverAlt": "International Journal of Intelligent Information Technologies cover"
+    },
+    {
+      "name": "Green Technologies and Sustainability",
+      "publisher": "KeAi (Elsevier)",
+      "indexing": "Scopus, EI, Web of Science",
+      "impactFactor": "12.2",
+      "homepageUrl": "https://www.keaipublishing.com/en/journals/green-technologies-and-sustainability/",
+      "cover": "images/journal-opportunities/gts.png",
+      "coverAlt": "Green Technologies and Sustainability journal cover"
+    },
+    {
+      "name": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "publisher": "IGI Global",
+      "indexing": "Scopus (Q1), EI, Web of Science",
+      "homepageUrl": "https://www.igi-global.com/journal/international-journal-semantic-web-information/1092",
+      "cover": "images/journal-opportunities/ijswis.jpeg",
+      "coverAlt": "International Journal on Semantic Web and Information Systems (IJSWIS) cover"
+    }
+  ]
+}

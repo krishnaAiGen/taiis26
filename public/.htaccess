@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /taiis2026/
+
+  # Serve existing files and directories (required for CMT static acknowledgment page)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # SPA fallback for all other routes
+  RewriteRule ^ index.html [L]
+</IfModule>
