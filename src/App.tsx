@@ -23,12 +23,16 @@ import { NearbyAttractionsPage } from "./pages/NearbyAttractionsPage"
 import { InternationalExcellenceImpactAwardsPage } from "./pages/InternationalExcellenceImpactAwardsPage"
 import { ContactPage } from "./pages/ContactPage"
 import { NotFoundPage } from "./pages/NotFoundPage"
+import { AdminPage } from "./pages/AdminPage"
 import { siteConfig } from "./config/siteConfig"
 
 export default function App() {
   return (
     <BrowserRouter basename={siteConfig.root}>
       <Routes>
+        {/* Outside the public Layout: no site navigation, and nothing links
+            here. Access is enforced by RLS, not by the route being unlisted. */}
+        <Route path="admin" element={<AdminPage />} />
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="call-for-papers" element={<CallForPapersPage />} />
