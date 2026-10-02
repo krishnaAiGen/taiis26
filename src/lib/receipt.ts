@@ -1,4 +1,4 @@
-import { supabase } from "./supabase"
+import { getSupabase } from "./supabase"
 
 /** Invoice data returned by the confirm-paypal-payment Edge Function. */
 export interface Receipt {
@@ -35,7 +35,7 @@ export type ReceiptResult =
 export async function confirmPayment(
   registrationId: string,
 ): Promise<ReceiptResult> {
-  const { data, error } = await supabase.functions.invoke(
+  const { data, error } = await getSupabase().functions.invoke(
     "confirm-paypal-payment",
     { body: { registrationId } },
   )

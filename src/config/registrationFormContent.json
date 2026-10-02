@@ -395,5 +395,7 @@
     "usd": 1,
     "ntd": 30,
     "note": "Internal test entry for verifying live payments. Visible only while VITE_SHOW_TEST_CATEGORY is true."
-  }
+  },
+  "unavailableTitle": "Online registration is temporarily unavailable",
+  "unavailableBody": "We are unable to accept registrations through this page right now. Please contact the organizing committee to register:"
 }

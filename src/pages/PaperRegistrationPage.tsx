@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom"
 import { AnimatePresence, motion } from "framer-motion"
 import { ChevronDown, X, AlertCircle } from "lucide-react"
 import { PaymentConfirmation } from "../components/PaymentConfirmation"
+import { registrationConfigured } from "../lib/registrations"
 import { Breadcrumbs } from "../components/Breadcrumbs"
 import { PageHeader } from "../components/PageHeader"
 import { MotionSection } from "../components/MotionSection"
@@ -33,6 +34,30 @@ function GuidelinesBlock({
 function RegistrationCta() {
   const [open, setOpen] = useState(false)
   const formRef = useRef<HTMLDivElement>(null)
+
+  // A deployment without Supabase credentials still serves the whole site; only
+  // the registration form is withheld, with a route to the committee instead.
+  if (!registrationConfigured) {
+    return (
+      <div className="mt-8 flex items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-6 py-6">
+        <AlertCircle className="mt-0.5 h-5 w-5 shrink-0 text-amber-500" />
+        <div>
+          <p className="font-medium text-amber-900">
+            {registrationFormContent.unavailableTitle}
+          </p>
+          <p className="mt-1 text-sm leading-relaxed text-amber-800">
+            {registrationFormContent.unavailableBody}{" "}
+            <a
+              href={`mailto:${siteConfig.conference.email}`}
+              className="font-medium underline underline-offset-2"
+            >
+              {siteConfig.conference.email}
+            </a>
+          </p>
+        </div>
+      </div>
+    )
+  }
 
   function openForm() {
     setOpen(true)

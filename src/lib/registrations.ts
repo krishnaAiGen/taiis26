@@ -1,4 +1,4 @@
-import { supabase } from "./supabase"
+import { getSupabase, supabaseConfigured } from "./supabase"
 
 /**
  * Registration target table. Development writes to `dev_taiis` and production
@@ -6,12 +6,11 @@ import { supabase } from "./supabase"
  */
 export const registrationTable = import.meta.env.VITE_REGISTRATION_TABLE
 
-if (!registrationTable) {
-  throw new Error(
-    "Missing VITE_REGISTRATION_TABLE. Set it to dev_taiis in .env.local, or " +
-      "prod_taiis in .env.production.",
-  )
-}
+/**
+ * Whether registration can run at all in this deployment. Checked by the UI so
+ * a misconfigured environment disables the form instead of blanking the site.
+ */
+export const registrationConfigured = supabaseConfigured && Boolean(registrationTable)
 
 /** One registration row, matching supabase/migrations/0001_taiis_registrations.sql. */
 export interface RegistrationRow {
@@ -72,7 +71,7 @@ function friendlyMessage(code: string | undefined, fallback: string): string {
 export async function submitRegistration(
   row: RegistrationRow,
 ): Promise<SubmitResult> {
-  const { error } = await supabase.from(registrationTable).insert(row)
+  const { error } = await getSupabase().from(registrationTable).insert(row)
 
   if (!error) return { ok: true }
 
@@ -106,7 +105,7 @@ export type PaymentResult =
 export async function createPaymentOrder(
   registrationId: string,
 ): Promise<PaymentResult> {
-  const { data, error } = await supabase.functions.invoke("create-paypal-order", {
+  const { data, error } = await getSupabase().functions.invoke("create-paypal-order", {
     body: { registrationId },
   })
 
