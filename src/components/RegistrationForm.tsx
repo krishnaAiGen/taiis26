@@ -1,6 +1,20 @@
 import { useId, useMemo, useState } from "react"
 import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react"
 import { siteConfig } from "../config/siteConfig"
+import {
+  LIMITS,
+  normaliseEmail,
+  normalisePhone,
+  normaliseText,
+  validateCitizenship,
+  validateDietaryComments,
+  validateEmail,
+  validateName,
+  validateOrganization,
+  validatePaperId,
+  validatePaperTitle,
+  validatePhone,
+} from "../lib/validation"
 import content from "../config/registrationFormContent.json"
 import {
   submitRegistration,
@@ -171,22 +185,27 @@ export function RegistrationForm() {
     const req = content.validation.required
 
     if (!values.category) next.category = req
-    if (!values.firstName.trim()) next.firstName = req
-    if (!values.lastName.trim()) next.lastName = req
-    if (!values.mobilePhone.trim()) next.mobilePhone = req
-    if (!values.organization.trim()) next.organization = req
     if (!values.country) next.country = req
-    if (!values.citizenship.trim()) next.citizenship = req
 
-    if (!values.email.trim()) {
-      next.email = req
-    } else if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(values.email.trim())) {
-      next.email = content.validation.email
-    }
+    // Field rules live in lib/validation.ts and are mirrored by CHECK
+    // constraints, so a direct POST cannot store what the form rejects.
+    const checks: Array<[keyof Values, string | null]> = [
+      ["firstName", validateName(fields.firstName.label)(values.firstName)],
+      ["lastName", validateName(fields.lastName.label)(values.lastName)],
+      ["email", validateEmail(values.email)],
+      ["mobilePhone", validatePhone(values.mobilePhone)],
+      ["organization", validateOrganization(values.organization)],
+      ["citizenship", validateCitizenship(values.citizenship)],
+      ["dietaryComments", validateDietaryComments(values.dietaryComments)],
+    ]
 
     if (needsPaper) {
-      if (!values.paperId.trim()) next.paperId = req
-      if (!values.paperTitle.trim()) next.paperTitle = req
+      checks.push(["paperId", validatePaperId(values.paperId)])
+      checks.push(["paperTitle", validatePaperTitle(values.paperTitle)])
+    }
+
+    for (const [key, message] of checks) {
+      if (message) next[key] = message
     }
 
     if (!values.consentTerms) next.consentTerms = content.validation.terms
@@ -212,15 +231,15 @@ export function RegistrationForm() {
       id: registrationId,
       registration_category: selected ? `${selected.section} — ${selected.name}` : "",
       attendance_mode: selected?.attendanceMode ?? "",
-      first_name: values.firstName.trim(),
-      last_name: values.lastName.trim(),
-      email: values.email.trim(),
-      mobile_phone: values.mobilePhone.trim(),
-      organization: values.organization.trim(),
+      first_name: normaliseText(values.firstName),
+      last_name: normaliseText(values.lastName),
+      email: normaliseEmail(values.email),
+      mobile_phone: normalisePhone(values.mobilePhone),
+      organization: normaliseText(values.organization),
       country: values.country,
-      citizenship: values.citizenship.trim(),
+      citizenship: normaliseText(values.citizenship),
       paper_id: needsPaper ? values.paperId.trim() : null,
-      paper_title: needsPaper ? values.paperTitle.trim() : null,
+      paper_title: needsPaper ? normaliseText(values.paperTitle) : null,
       attending_dinner: values.attendingDinner === "yes",
       dietary_requirement: values.dietaryRequirement || null,
       dietary_comments: values.dietaryComments.trim() || null,
@@ -443,6 +462,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-firstName`}
+              maxLength={LIMITS.name}
               type="text"
               autoComplete="given-name"
               placeholder={fields.firstName.placeholder}
@@ -460,6 +480,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-lastName`}
+              maxLength={LIMITS.name}
               type="text"
               autoComplete="family-name"
               placeholder={fields.lastName.placeholder}
@@ -477,6 +498,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-email`}
+              maxLength={LIMITS.email}
               type="email"
               autoComplete="email"
               placeholder={fields.email.placeholder}
@@ -494,6 +516,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-mobilePhone`}
+              maxLength={LIMITS.phone}
               type="tel"
               autoComplete="tel"
               placeholder={fields.mobilePhone.placeholder}
@@ -511,6 +534,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-organization`}
+              maxLength={LIMITS.organization}
               type="text"
               autoComplete="organization"
               placeholder={fields.organization.placeholder}
@@ -552,6 +576,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-citizenship`}
+              maxLength={LIMITS.citizenship}
               type="text"
               placeholder={fields.citizenship.placeholder}
               value={values.citizenship}
@@ -580,6 +605,7 @@ export function RegistrationForm() {
               </label>
               <input
                 id={`${formId}-paperId`}
+              maxLength={LIMITS.paperId}
                 type="text"
                 inputMode="numeric"
                 placeholder={fields.paperId.placeholder}
@@ -597,6 +623,7 @@ export function RegistrationForm() {
               </label>
               <input
                 id={`${formId}-paperTitle`}
+              maxLength={LIMITS.paperTitle}
                 type="text"
                 placeholder={fields.paperTitle.placeholder}
                 value={values.paperTitle}
@@ -665,6 +692,7 @@ export function RegistrationForm() {
             </label>
             <input
               id={`${formId}-dietaryComments`}
+              maxLength={LIMITS.dietaryComments}
               type="text"
               placeholder={fields.dietaryComments.placeholder}
               value={values.dietaryComments}
