@@ -9,11 +9,11 @@
 
 /** Longest value each field may store, also used as the input maxLength. */
 export const LIMITS = {
-  name: 80,
+  name: 25,
   email: 254, // RFC 5321 maximum path length
   phone: 24, // generous for formatted input; normalised before storing
-  organization: 120,
-  citizenship: 100,
+  organization: 50,
+  citizenship: 25,
   paperId: 10,
   paperTitle: 300,
   dietaryComments: 500,

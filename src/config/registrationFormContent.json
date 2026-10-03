@@ -54,7 +54,7 @@
       "placeholder": "Select a country"
     },
     "citizenship": {
-      "label": "Citizenship (include dual citizenships)",
+      "label": "Citizenship",
       "placeholder": "Taiwan"
     },
     "paperId": {
